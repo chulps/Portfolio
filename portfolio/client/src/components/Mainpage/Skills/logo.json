@@ -1,0 +1,57 @@
+[
+  {
+    "id":1,
+    "type":"design",
+    "image": "../../../images/logos/att.png"
+  },
+  {
+    "id":2,
+    "type":"develop",
+    "image": "../../../images/logos/bjs.png"
+  },
+  {
+    "id":3,
+    "type":"food",
+    "image": "../../../images/logos/california-pizza-kitchen.png"
+  },
+  {
+    "id":4,
+    "type":"health",
+    "image": "../../../images/logos/Cedars-Sinai_Logo.png"
+  },
+  {
+    "id":5,
+    "type":"entertainment",
+    "image": "../../../images/logos/disney.png"
+  },
+  {
+    "id":6,
+    "type":"auto",
+    "image": "../../../images/logos/honda.png"
+  },
+  {
+    "id":7,
+    "type":"bank",
+    "image": "../../../images/logos/JPM_logo.png"
+  },
+  {
+    "id":8,
+    "type":"health",
+    "image": "../../../images/logos/kaiser.png"
+  },
+  {
+    "id":9,
+    "type":"entertainment",
+    "image": "../../../images/logos/sony.png"
+  },
+  {
+    "id":10,
+    "type":"auto",
+    "image": "../../../images/logos/toyota.png"
+  },
+  {
+    "id":11,
+    "type":"entertainment",
+    "image": "../../../images/logos/universal.png"
+  }
+]
