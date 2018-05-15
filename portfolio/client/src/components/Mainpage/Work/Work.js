@@ -4,15 +4,15 @@ import "./Work.css";
 
 const Work = () => {
   return (
-    <div id="work" className="py-5 bg-transparent row">
+    <div id="work" className="py-5 bg-transparent row text-white">
       
       <div className="text-center container">
 
-        <h2 className="pb-3 pt-5">Recent Work</h2>
+        <h2 className="pb-3 py-5">Recent Work</h2>
 
-        <div className="row bg-dot-grid">
+        <div className="row bg-dot-grid p-5">
 
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto p-5">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
               <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
@@ -22,7 +22,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto p-5 mx-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
             <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
@@ -32,7 +32,7 @@ const Work = () => {
             </div>
           </div>
 
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto p-5 mx-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
             <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
@@ -41,10 +41,10 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className='col-12'>
+        </div>
+        <div className='col-12'>
             <a href="#contact" className="btn btn-lg btn-dark mx-auto mt-5">See More</a>
           </div>
-        </div>
       </div>
     </div>
   );
