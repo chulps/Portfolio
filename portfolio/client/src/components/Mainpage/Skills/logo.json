@@ -1,57 +1,87 @@
 [
   {
     "id":1,
-    "type":"design",
-    "image": "../../../images/logos/att.png"
+    "type":"Photoshop",
+    "image": "../../../images/logos/photoshop.png"
   },
   {
     "id":2,
-    "type":"develop",
-    "image": "../../../images/logos/bjs.png"
+    "type":"Illustrator",
+    "image": "../../../images/logos/illustrator.png"
   },
   {
     "id":3,
-    "type":"food",
-    "image": "../../../images/logos/california-pizza-kitchen.png"
+    "type":"InDesign",
+    "image": "../../../images/logos/indesign.png"
   },
   {
     "id":4,
-    "type":"health",
-    "image": "../../../images/logos/Cedars-Sinai_Logo.png"
+    "type":"Premiere Pro",
+    "image": "../../../images/logos/premiere.png"
   },
   {
     "id":5,
-    "type":"entertainment",
-    "image": "../../../images/logos/disney.png"
+    "type":"After Effects",
+    "image": "../../../images/logos/aftereffects.png"
   },
   {
     "id":6,
-    "type":"auto",
-    "image": "../../../images/logos/honda.png"
+    "type":"Bridge",
+    "image": "../../../images/logos/bridge.png"
   },
   {
     "id":7,
-    "type":"bank",
-    "image": "../../../images/logos/JPM_logo.png"
+    "type":"Dreamweaver",
+    "image": "../../../images/logos/dreamweaver.png"
   },
   {
     "id":8,
-    "type":"health",
-    "image": "../../../images/logos/kaiser.png"
+    "type":"HTML5",
+    "image": "../../../images/logos/html5.png"
   },
   {
     "id":9,
-    "type":"entertainment",
-    "image": "../../../images/logos/sony.png"
+    "type":"CSS3",
+    "image": "../../../images/logos/css3.png"
   },
   {
     "id":10,
-    "type":"auto",
-    "image": "../../../images/logos/toyota.png"
+    "type":"Javascript",
+    "image": "../../../images/logos/javascript.png"
   },
   {
     "id":11,
-    "type":"entertainment",
-    "image": "../../../images/logos/universal.png"
+    "type":"JQuery",
+    "image": "../../../images/logos/jquery.png"
+  },
+  {
+    "id":12,
+    "type":"Mysql",
+    "image": "../../../images/logos/mysql.png"
+  },
+  {
+    "id":13,
+    "type":"MongoDB",
+    "image": "../../../images/logos/mongodb.png"
+  },
+  {
+    "id":14,
+    "type":"React",
+    "image": "../../../images/logos/react.png"
+  },
+  {
+    "id":15,
+    "type":"Node",
+    "image": "../../../images/logos/node.png"
+  },
+  {
+    "id":16,
+    "type":"npm",
+    "image": "../../../images/logos/npm.png"
+  },
+  {
+    "id":17,
+    "type":"Express",
+    "image": "../../../images/logos/express.png"
   }
 ]

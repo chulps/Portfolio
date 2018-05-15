@@ -2,12 +2,12 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div id="services" className="py-5 row text-white">
+    <div id="services" className="py-5 row text-white vh-100">
     <div className="text-center pb-3 container">
 
-      <h2 className="pb-3 pt-5">Services</h2>
+      <h2 className="pb-3 py-5">Services</h2>
 
-      <div className="row">
+      <div className="row py-5 bg-dot-grid">
 
         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-3 mx-auto">
           <div >
@@ -38,10 +38,8 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-        <a href="#contact" className="btn btn-lg btn-dark mx-auto mt-5">Request service</a>
-
       </div>
+      <a href="#contact" className="btn btn-lg btn-dark mx-auto mt-5">Request service</a>
     </div>
   </div>
   );

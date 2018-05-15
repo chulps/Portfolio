@@ -6,7 +6,7 @@ const Hero = () => {
   
   return (
     
-    <div id='hero' className='jiggle'>
+    <div id='hero' className='jiggle bg-gradient'>
        <ParticlesComp/>
     </div>
   ); 

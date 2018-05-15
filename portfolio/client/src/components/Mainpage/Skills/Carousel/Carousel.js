@@ -12,6 +12,7 @@ class DemoCarousel extends Component {
               logo.map((element, index) => (
                   <div key={index}>
                      <img height={350} src={element.image} />
+                     <p>{element.type}</p>
                   </div>
               ))
             }

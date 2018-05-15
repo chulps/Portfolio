@@ -1,6 +1,8 @@
 import React from "react";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Navbar = () => {
+  
   return (
     <div className="sticky-top">
       <nav className="navbar navbar-dark bg-transparent navbar-expand-lg">
@@ -12,12 +14,12 @@ const Navbar = () => {
           
           <ul className="navbar-nav ml-auto mt-2">
             
-            <li className="nav-item active">
-              <a className="nav-link" href="#hero">
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
               
               About 
               
-              <span className="sr-only">(current)</span></a>
+              </a>
             </li>
             
             <li className="nav-item">

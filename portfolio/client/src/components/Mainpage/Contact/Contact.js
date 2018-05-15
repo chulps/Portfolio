@@ -3,8 +3,8 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div id="contact" className="py-5">
-      
+    <div id={'contact'} className="py-5">
+      contact
       
     </div>
   );
