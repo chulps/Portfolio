@@ -22,8 +22,8 @@ const Skills = () => {
         
       </div>
       <div className="text-center">
-        <button className="btn btn-danger btn-lg mx-auto mt-5" href='#contact'>
-          Let's build something cool!
+        <button href="https://github.com/chulps" target="blank" className="btn btn-danger btn-lg mx-auto mt-5" href='#contact'>
+          Check out my Github
         </button>
       </div>
       </div>

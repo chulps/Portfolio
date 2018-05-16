@@ -12,7 +12,7 @@ const Work = () => {
 
         <div className="row bg-dot-grid p-5">
 
-          <a href="https://roastr-app.herokuapp.com/" target="" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
+          <a href="https://roastr-app.herokuapp.com/" target="blank" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
               <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
@@ -22,9 +22,9 @@ const Work = () => {
             </div>
           </a>
 
-          <a href="https://chulps.github.io/Crystal-Game/" target="" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
+          <a href="https://chulps.github.io/Crystal-Game/" target="blank" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
-            <img className="img-thumbnail rounded-circle p-5" alt=''/>
+            <img className="img-thumbnail rounded-circle p-5" target="blank" alt=''/>
               <div className="card-body">
                 <h5 className="card-title">Crystal Game</h5>
                 <p className="card-text">A fun little math game for nerds built with Bootstrap and JQuery</p>
@@ -32,7 +32,7 @@ const Work = () => {
             </div>
           </a>
 
-          <a className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
+          <a href="https://chulps.github.io/Cholors/" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
             <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
