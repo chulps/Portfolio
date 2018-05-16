@@ -24,7 +24,7 @@ const Services = () => {
           <img className="img-thumbnail rounded-circle p-5" alt=''/>
             <div className="card-body">
               <h5 className="card-title">Full-Stack Development</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p className="card-text">Let's build responsive sites and apps.</p>
             </div>
           </div>
         </div>
@@ -33,13 +33,14 @@ const Services = () => {
           <div >
           <img className="img-thumbnail rounded-circle p-5" alt=''/>
             <div className="card-body">
-              <h5 className="card-title">Animation</h5>
-              <p className="card-text">I can do stuff</p>
+              <h5 className="card-title">Illustration</h5>
+              <p className="card-text">I'm artistic!</p>
             </div>
           </div>
         </div>
       </div>
-      <a href="#contact" className="btn btn-lg btn-dark mx-auto mt-5">Request service</a>
+      <p className='mt-5'>I'm still working on this site and I haven't finished this section yet, so... here is a link to my old portfolio site</p>
+      <a href="https//:www.chulps.space" target="blank"className="btn btn-lg btn-dark mx-auto">Check it out</a>
     </div>
   </div>
   );

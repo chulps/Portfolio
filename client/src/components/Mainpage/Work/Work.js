@@ -12,17 +12,17 @@ const Work = () => {
 
         <div className="row bg-dot-grid p-5">
 
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
+          <a href="https://roastr-app.herokuapp.com/" target="" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
               <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
                 <h5 className="card-title">Roaster</h5>
-                <p className="card-text">Roast your friends with this fun social App build using React.js</p>
+                <p className="card-text">Roast your friends with this fun social App built using React.js and Bootstrap</p>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
+          <a href="https://chulps.github.io/Crystal-Game/" target="" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
             <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
@@ -30,9 +30,9 @@ const Work = () => {
                 <p className="card-text">A fun little math game for nerds built with Bootstrap and JQuery</p>
               </div>
             </div>
-          </div>
+          </a>
 
-          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
+          <a className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
             <div >
             <img className="img-thumbnail rounded-circle p-5" alt=''/>
               <div className="card-body">
@@ -40,7 +40,7 @@ const Work = () => {
                 <p className="card-text">Random color scheme generator. There are others like it but this one is mine!</p>
               </div>
             </div>
-          </div>
+          </a>
         </div>
         <div className='col-12'>
             <a href="#contact" className="btn btn-lg btn-dark mx-auto mt-5">See More</a>
