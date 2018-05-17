@@ -5,10 +5,11 @@ const Navbar = () => {
   return (
     <div className="sticky-top">
       <nav className="navbar navbar-dark bg-transparent bg-md-dark navbar-expand-lg">
+      <a className="navbar-brand" href="/">Chuck Howard</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a className="navbar-brand" href="/">Chuck Howard</a>
+        
         <div className="collapse navbar-collapse" id="navToggle">
           
           <ul className="navbar-nav ml-auto mt-2">
