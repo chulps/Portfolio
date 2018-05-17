@@ -2,53 +2,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-canvas {
-    height: 100vh !important;
-    -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
-     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
- }
-
- body{
-     overflow-x: hidden;
- }
-
- 
-.obj-center{
-    object-position: 50% 50%;
-}
-
-.box-glow{
-    box-shadow: 0 0 20px white;
-}
-
-.filter-glow{
-    -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
-     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
-}
-
-.jiggle {
-    animation: jiggle 2s; 
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out; 
-}
-
-@keyframes jiggle {
-    0% { transform: translate(1px, 1px) rotate(0deg);perspective: 40px; }
-    10% { transform: translate(-1px, -2px) rotate(-.25deg); perspective: 30px;}
-    20% { transform: translate(-3px, 0px) rotate(.25deg); perspective: 20px;}
-    30% { transform: translate(0px, 2px) rotate(0deg); perspective: 1px;} 
-    40% { transform: translate(1px, -1px) rotate(.25deg); }
-    50% { transform: translate(-1px, 2px) rotate(-.25deg); }
-    60% { transform: translate(-2px, 1px) rotate(0deg); }
-    70% { transform: translate(0px, 0px) rotate(-.25deg); }
-    80% { transform: translate(-1px, -1px) rotate(0deg); }
-    90% { transform: translate(1px, 0px) rotate(.25deg); }
-    100% { transform: translate(1px, -2px) rotate(0deg); }
-}
-
 .bg-dot-grid{
     background-image:
-    radial-gradient(white 3%, transparent 0);
+    radial-gradient(white 4%, transparent 0);
     background-size: 30px 30px;
 }
 
@@ -58,30 +14,96 @@ canvas {
     background-size: 30px 30px;
 }
 
-.square{ 
-    height: 260px;
-    width: 260px;;
+body{
+    overflow-x: hidden;
 }
+
+.box-glow{
+    box-shadow: 0 0 20px white;
+}
+
+canvas {
+    height: 100vh !important;
+    -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
+     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+ }
 
 .circle{
     border-radius:50%;
     background-image: url(../public/images/me.jpg);
     background-position: center;
     overflow: hidden;
-    border:3px solid #007bff;
+    border:2px solid white;
+}
+
+.down {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.filter-glow{
+    -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
+     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
 }
 
 .hover-obj{
-    box-shadow: 0 0 1px slategray;
-    transition: 1s ease;
+    box-shadow: 0 0 1px #002752;
+    transition: .5s ease;
     margin-top:0;
     margin-bottom:0;
 }
 
 .hover-obj:hover{
-    box-shadow: 0 20px 25px lightgrey;
+    box-shadow: 0 20px 25px #005cbf;
     transition: 1s ease;
     margin-top: -10px;
     margin-bottom:10px;
 }
+
+.jiggle {
+    animation: jiggle 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+}
+
+.mt-92{
+    margin-top: 92vh;
+}
+
+@keyframes jiggle {
+    0% { transform: translate(1px, 1px) rotate(0deg);perspective: 40px; }
+    10% { transform: translate(-1px, -1px) rotate(-.25deg); perspective: 30px;}
+    20% { transform: translate(-3px, 0px) rotate(.25deg); perspective: 20px;}
+    30% { transform: translate(0px, 1px) rotate(0deg); perspective: 1px;} 
+    40% { transform: translate(1px, -1px) rotate(.25deg); }
+    50% { transform: translate(-1px, 2px) rotate(-.25deg); }
+    60% { transform: translate(-2px, 1px) rotate(0deg); }
+    70% { transform: translate(0px, 0px) rotate(-.25deg); }
+    80% { transform: translate(-1px, -1px) rotate(0deg); }
+    90% { transform: translate(1px, 0px) rotate(.25deg); }
+    100% { transform: translate(1px, -1px) rotate(0deg); }
+}
+
+.obj-center{
+    object-position: 50% 50%;
+}
+
+.text-glow-white{
+    text-shadow: 0 0 20px white;
+}
+
+.square{ 
+    height: 260px;
+    width: 260px;;
+}
+
+.vh-100{
+    height: 100vh;
+}
+
+
 

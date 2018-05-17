@@ -77,7 +77,7 @@ const ParticlesComp = () => {
           style={{
             objectFit: 'cover',
             marginTop: '-8vh',
-
+            position: 'fixed',
           }}
         />
   );

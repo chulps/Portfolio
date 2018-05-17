@@ -2,10 +2,11 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div id="services" className="py-5 row text-white vh-100">
+    <div id="services" className="pt-5 row text-white">
     <div className="text-center pb-3 container">
 
-      <h2 className="pb-3 py-5">Services</h2>
+      <h2 className="py-5">Services</h2>
+      <p>I can take your project from concept to completion</p>
 
       <div className="row py-5 bg-dot-grid">
 
