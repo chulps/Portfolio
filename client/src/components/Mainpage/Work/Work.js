@@ -42,9 +42,6 @@ const Work = () => {
             </div>
           </a>
         </div>
-        <div className='col-12'>
-            <a href="#contact" className="btn btn-lg btn-dark mx-auto mt-5">See More</a>
-          </div>
       </div>
     </div>
   );

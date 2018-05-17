@@ -13,7 +13,6 @@ const About = () => {
           <h2>I'm probably somewhere... <br/>wearing a headband.</h2>   
           <p>I'm a Full-Stack Web Developer, Designer & Illustrator. 
           I currently live in Los Angeles. Welcome to my portfolio website. </p>   
-          <button className='btn btn-danger mx-auto'>This button doesn't do anything</button>            
         </div>
 
 

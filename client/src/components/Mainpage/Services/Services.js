@@ -40,7 +40,9 @@ const Services = () => {
         </div>
       </div>
       <p className='mt-5'>I'm still working on this site and I haven't finished this section yet, so... here is a link to my old portfolio site</p>
-      <a href="https//:www.chulps.space" target="blank"className="btn btn-lg btn-dark mx-auto">Check it out</a>
+      <a href="https://www.chulps.space" target="blank" className="btn btn-danger btn-lg mx-auto mt-5">
+          Check out my old site
+        </a>
     </div>
   </div>
   );
