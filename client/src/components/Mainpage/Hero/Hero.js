@@ -1,13 +1,21 @@
 import React from "react";
 import ParticlesComp from "./ParticlesComp";
-import './Hero.css';
+import Logo from "../../Logo";
  
 const Hero = () => {
   
   return (
     
-    <div id='hero' className='jiggle bg-gradient'>
-       <ParticlesComp/>
+    <div id='hero' className='row jiggle filter-glow'>
+      <div className='container-fluid'>
+            <div className='d-flex justify-content-center w-100 h-100 position-absolute'>
+              <div className='align-self-center pb-5'>
+                <Logo />
+              </div>
+            </div>
+        <ParticlesComp/>
+      </div>
+      
     </div>
   ); 
 }

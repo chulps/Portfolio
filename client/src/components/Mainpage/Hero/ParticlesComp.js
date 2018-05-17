@@ -77,9 +77,7 @@ const ParticlesComp = () => {
           style={{
             objectFit: 'cover',
             marginTop: '-8vh',
-            backgroundImage: `url(${'https://i.imgur.com/opbytEd.gif'})`,
-            backgroundRepeat  : 'no-repeat', 
-            backgroundPosition: '50% 55%',
+
           }}
         />
   );

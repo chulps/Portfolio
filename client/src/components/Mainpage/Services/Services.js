@@ -24,7 +24,7 @@ const Services = () => {
           <img className="img-thumbnail rounded-circle p-5" alt=''/>
             <div className="card-body">
               <h5 className="card-title">Full-Stack Development</h5>
-              <p className="card-text">Let's build responsive sites and apps.</p>
+              <p className="card-text">Let's build a cooler more beautiful internet.</p>
             </div>
           </div>
         </div>
@@ -34,15 +34,11 @@ const Services = () => {
           <img className="img-thumbnail rounded-circle p-5" alt=''/>
             <div className="card-body">
               <h5 className="card-title">Illustration</h5>
-              <p className="card-text">I'm artistic!</p>
+              <p className="card-text">Ya... I can draw.</p>
             </div>
           </div>
         </div>
       </div>
-      <p className='mt-5'>I'm still working on this site and I haven't finished this section yet, so... here is a link to my old portfolio site</p>
-      <a href="https://www.chulps.space" target="blank" className="btn btn-danger btn-lg mx-auto mt-5">
-          Check out my old site
-        </a>
     </div>
   </div>
   );

@@ -13,38 +13,30 @@ canvas {
  }
 
  
- .obj-center{
+.obj-center{
     object-position: 50% 50%;
-} 
-
-.obj-glow{
-    -webkit-filter: drop-shadow(20px rgba(255, 255, 255, 1));
-    filter: drop-shadow(20px rgba(255, 255, 255, 1)); 
-}
-
-.text-glow{
-    text-shadow: 0 0 10px white;
 }
 
 .box-glow{
-    box-shadow: 0 0 50px white;
+    box-shadow: 0 0 20px white;
+}
+
+.filter-glow{
+    -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
+     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
 }
 
 .jiggle {
     animation: jiggle 2s; 
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    
+    animation-timing-function: ease-in-out; 
 }
 
 @keyframes jiggle {
-    0% { transform: translate(1px, 1px) rotate(0deg);
-        perspective: 40px; }
-    10% { transform: translate(-1px, -2px) rotate(-.25deg); 
-        perspective: 30px;}
-    20% { transform: translate(-3px, 0px) rotate(.25deg); 
-        perspective: 20px;}
-    30% { transform: translate(0px, 2px) rotate(0deg); }
+    0% { transform: translate(1px, 1px) rotate(0deg);perspective: 40px; }
+    10% { transform: translate(-1px, -2px) rotate(-.25deg); perspective: 30px;}
+    20% { transform: translate(-3px, 0px) rotate(.25deg); perspective: 20px;}
+    30% { transform: translate(0px, 2px) rotate(0deg); perspective: 1px;} 
     40% { transform: translate(1px, -1px) rotate(.25deg); }
     50% { transform: translate(-1px, 2px) rotate(-.25deg); }
     60% { transform: translate(-2px, 1px) rotate(0deg); }
@@ -60,8 +52,10 @@ canvas {
     background-size: 30px 30px;
 }
 
-.bg-gradient{
-    background: radial-gradient(circle, rgba(141,196,255,1) 0%, rgba(141,196,255,0) 40%);
+.bg-dot-blue{
+    background-image:
+    radial-gradient(#007bff 4%, transparent 0);
+    background-size: 30px 30px;
 }
 
 .square{ 
@@ -78,15 +72,16 @@ canvas {
 }
 
 .hover-obj{
-    box-shadow: 0 0 5px slategray;
-    transition: all .2s ease-out;
+    box-shadow: 0 0 1px slategray;
+    transition: 1s ease;
     margin-top:0;
     margin-bottom:0;
 }
 
 .hover-obj:hover{
     box-shadow: 0 20px 25px lightgrey;
-    transition: all .2s ease-out;
+    transition: 1s ease;
     margin-top: -10px;
     margin-bottom:10px;
 }
+
