@@ -11,7 +11,7 @@ const Navbar = () => {
         
         <div className="collapse navbar-collapse" id="navToggle">
           
-          <ul className="navbar-nav mx-auto mt-2">
+          <ul className="navbar-nav mx-auto mt-2 text-center" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
             
             <li className="nav-item">
               <a className="nav-link" href="#about">
