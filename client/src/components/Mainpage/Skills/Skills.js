@@ -14,7 +14,7 @@ const Skills = () => {
           {logo.map((element) => {
             return(
               <div key={element.id}
-                className="mx-4 mb-5">
+                className="m-4">
                 <img height={70} src={element.image} alt=""/>
               </div>
             );

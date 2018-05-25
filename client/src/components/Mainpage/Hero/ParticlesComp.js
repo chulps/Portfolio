@@ -7,11 +7,11 @@ const ParticlesComp = () => {
     <Particles
           params={{
             particles: {
-              number: { value: 20, density: { enable: true, value_area: 800 } },
+              number: { value: 5, density: { enable: true, value_area: 800 } },
               color: { value: "#ffffff" },
               shape: {
                 type: "circle",
-                stroke: { width: 2, color: "#00ffff" },
+                stroke: { width: 5, color: "#00ffff" },
                 polygon: { nb_sides: 5 },
                 image: { src: "img/github.svg", width: 100, height: 100 }
               },
@@ -45,7 +45,7 @@ const ParticlesComp = () => {
                 straight: true,
                 out_mode: "out",
                 bounce: false,
-                attract: { enable: false, rotateX: 600, rotateY: 1200 }
+                attract: { enable: false, rotateX: 600, rotateY: 1200}
               }
             },
             interactivity: {
@@ -75,9 +75,9 @@ const ParticlesComp = () => {
             }
           }
           style={{
+            position: 'absolute',
             objectFit: 'cover',
             marginTop: '-8vh',
-            position: 'fixed',
           }}
         />
   );

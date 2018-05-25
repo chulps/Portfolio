@@ -11,9 +11,9 @@ const About = () => {
           <img className='circle hover-obj img-fluid' href='' alt='' src='https://i.imgur.com/H8IrVLl.jpg'/>                   
         </div>
 
-        <div className='mt-5 col-xs-12 mt-xs-5 col-sm-12 mt-sm-5 col-md-6 mt-md-0 col-lg-4 col-xl-4'>
-          <h3>I'm probably somewhere... <br/>wearing a headband.</h3>   
-          <p>I'm a Full-Stack Web Developer, Designer & Illustrator. 
+        <div className='mt-5 col-xs-12 mt-xs-5 col-sm-12 mt-sm-5 col-md-6 mt-md-0 col-lg-6 col-xl-6'>
+          <h3>A one man creative agency.</h3>   
+          <p>I'm a Full-Stack Web Developer, Designer, Illustrator, and Animator. I' 
           I currently live in Los Angeles. Welcome to my portfolio website. </p>   
         </div>
 

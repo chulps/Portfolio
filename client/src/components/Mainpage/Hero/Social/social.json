@@ -1,0 +1,45 @@
+[
+    {
+      "id":1,
+      "type":"behance",
+      "image": "../../../images/SocialIcons/behance.png",
+      "href": "https://www.behance.net/chuckhoward"
+    },
+    {
+      "id":2,
+      "type":"github",
+      "image": "../../../images/SocialIcons/github.png",
+      "href": "https://github.com/chulps"
+    },
+    {
+      "id":3,
+      "type":"gmail",
+      "image": "../../../images/SocialIcons/gmail.png",
+      "href": "chuckoward@gmail.com"
+    },
+    {
+      "id":4,
+      "type":"instagram",
+      "image": "../../../images/SocialIcons/instagram.png",
+      "href": "https://www.instagram.com/chulps"
+    },
+    {
+      "id":5,
+      "type":"linkedin",
+      "image": "../../../images/SocialIcons/linkedin.png",
+      "href": "https://www.linkedin.com/in/chuck-howard/"
+    },
+    {
+      "id":6,
+      "type":"pinterest",
+      "image": "../../../images/SocialIcons/pinterest.png",
+      "href": "contact"
+    },
+    {
+      "id":7,
+      "type":"stack_overflow",
+      "image": "../../../images/SocialIcons/stack_overflow.png",
+      "href": "contact"
+    }
+  ]
+  

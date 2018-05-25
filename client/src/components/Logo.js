@@ -3,7 +3,7 @@ import React from "react";
 const Logo = () => {
   
   return (
-        <img src='https://i.imgur.com/opbytEd.gif/' alt=''/>
+        <img className='img-fluid' src='https://i.imgur.com/opbytEd.gif/' alt=''/>
   ); 
 }
 

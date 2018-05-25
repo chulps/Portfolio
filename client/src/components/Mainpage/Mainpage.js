@@ -9,7 +9,7 @@ import Contact from "./Contact";
 class Mainpage extends Component {
   render() {
     return (
-      <div>
+      <div className='x-hidden'>
         <Hero/>
         <About/>
         <Skills/>
