@@ -7,14 +7,18 @@ const Social = () => {
     col-12 
     col-xs-12 
     col-sm-12 
-    order-last
-    order-sm-0
     col-md-1 
     col-lg-1 
     col-xl-1 
     p-0 
     align-self-center 
-    text-center 
+    text-center
+    ml-2
+    mt-1
+    mt-md-0
+    ml-md-0
+    mr-4
+    text-md-right 
     mt-minus-4'>
 
     <div id="Social" className="py-5 text-white">

@@ -5,13 +5,17 @@ const C = () => {
     return (
         <div className='
           mt-5
+          mt-md-0
+          mt-lg-0
+          mb-md-5
           col-10 
           offset-1 
-          col-xs-10
+          col-xs-12
           col-sm-8
-          mt-md-0
+          pb-md-5
           col-md-6 
-          col-lg-5 
+          col-lg-5
+          pb-lg-5
           col-xl-3 
           align-self-center 
           text-center 
@@ -19,7 +23,8 @@ const C = () => {
           text-glow-white 
           bg-dot-grid 
           p-5
-          mx-auto'>
+          mx-auto
+          '>
             
             <div className='text-center jiggle filter-glow'>
               <Logo />

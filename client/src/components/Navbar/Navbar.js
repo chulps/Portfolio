@@ -8,7 +8,7 @@ const Navbar = () => {
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className='brand border border-white text-white p-2 text-center'>Chuck Howard</div>
+        <div className='brand border border-white text-white p-2 text-center rounded'>Chuck Howard</div>
 
         <div className="collapse navbar-collapse" id="navToggle">
           <ul className="navbar-nav ml-auto mt-2 text-center" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <a className="nav-link active" href="#contact">
               
               Contact
               

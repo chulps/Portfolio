@@ -89,9 +89,13 @@ canvas {
     margin-top: -4vh;
 }
 
-.california{
-    margin: -85px 80px 0px 0px;
-    padding-right: 20px;
+.mt-plus-4{
+    margin-top: 4vh;
+}
+
+.pos-top-minus-8{
+    position: relative;
+    top: -8vm;
 }
 
 .rotate-90-ccw{
@@ -100,6 +104,7 @@ canvas {
     margin-top: 60%;
     transform: rotate(-90deg);
     transform-origin: left top;
+    position: absolute;
 }
 
 .text-glow-white{
