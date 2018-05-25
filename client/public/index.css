@@ -36,7 +36,7 @@ canvas {
     border:2px solid white;
 }
 
-.down {
+.down-arrow {
     border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;

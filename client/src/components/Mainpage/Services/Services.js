@@ -15,7 +15,7 @@ const Services = () => {
             <img className="img-thumbnail rounded-circle p-5" alt=''/>
             <div className="card-body">
               <h5 className="card-title">Full Service Design</h5>
-              <p className="card-text">10 years experience. What will we come up with?</p>
+              <p className="card-text">10 years experience designing a wide range of print and digital products. Together we can bring your idea to life!</p>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ const Services = () => {
           <img className="img-thumbnail rounded-circle p-5" alt=''/>
             <div className="card-body">
               <h5 className="card-title">Full-Stack Development</h5>
-              <p className="card-text">Let's build a cooler more beautiful internet.</p>
+              <p className="card-text">From concept to completion I will be with you the entire way. </p>
             </div>
           </div>
         </div>
