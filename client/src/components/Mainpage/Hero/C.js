@@ -31,7 +31,7 @@ const C = () => {
             </div>
             
             <a href='#about'>
-              <span className='px-4 py-1 bg-primary text-white border border-white rounded'>Continue</span>
+              <span className='px-4 py-1 bg-primary text-white rounded'>Let's build cool stuff</span>
             </a>
             <br/>
             <div className='mt-3 down-arrow filter-glow'></div>
