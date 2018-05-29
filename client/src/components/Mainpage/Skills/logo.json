@@ -88,5 +88,10 @@
     "id":18,
     "type":"Bootstrap",
     "image": "../../../images/logos/bootstrap.png"
+  },
+  {
+    "id":19,
+    "type":"heroku",
+    "image": "../../../images/logos/heroku.png"
   }
 ]
