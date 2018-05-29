@@ -68,7 +68,7 @@ canvas {
 }
 
 .hover-corners{
-	color: white;
+	position: relative;
 }
 
 .hover-corners::before,
