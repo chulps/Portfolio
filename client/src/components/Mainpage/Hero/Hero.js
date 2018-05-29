@@ -3,20 +3,21 @@ import ParticlesComp from './ParticlesComp';
 import Social from './Social';
 import California from './California';
 import C from './C';
+import Tilt from 'react-tilt'
 
 const Hero = () => {
 
   return (
 
-    <div id='hero' className='d-flex vh-100 text-white'>
-      <div className='container-fluid'>
-      
+    <div id='hero' className='d-flex text-white pb-5'>
+      <div className='container-fluid px-3'>
+
         <div className='filter-glow'>
           <ParticlesComp/>
         </div>
-        
-        <div className='row w-100 h-100 position-absolute z-100'>
-          
+
+        <div className='row w-100 vh-100 mt-5 mt-md-0 mx-0'>
+
           <California/>
           <C/>
           <Social />

@@ -7,11 +7,11 @@ const ParticlesComp = () => {
     <Particles
           params={{
             particles: {
-              number: { value: 5, density: { enable: true, value_area: 800 } },
+              number: { value: 20, density: { enable: true, value_area: 1600 } },
               color: { value: "#ffffff" },
               shape: {
                 type: "circle",
-                stroke: { width: 5, color: "#00ffff" },
+                stroke: { width: 3, color: "#00ffff" },
                 polygon: { nb_sides: 5 },
                 image: { src: "img/github.svg", width: 100, height: 100 }
               },
@@ -59,7 +59,7 @@ const ParticlesComp = () => {
                 grab: { distance: 400, line_linked: { opacity: 1 } },
                 bubble: {
                   distance: 300,
-                  size: 2,
+                  size: 1.5,
                   duration: 2,
                   opacity: 8,
                   speed: 3
@@ -76,8 +76,8 @@ const ParticlesComp = () => {
           }
           style={{
             position: 'absolute',
-            objectFit: 'cover',
-            marginTop: '-8vh',
+            top:0,
+            left: 0,
           }}
         />
   );

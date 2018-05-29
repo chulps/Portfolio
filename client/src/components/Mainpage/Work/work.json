@@ -1,0 +1,25 @@
+[
+    {
+      "id":1,
+      "title":"Roastr",
+      "image": "../../../images/work/roastr_logo_white.png",
+      "href": "https://roastr-app.herokuapp.com/",
+      "description": "A fun little app for Roasting your friends; Built with a MERN stack."
+    },
+    {
+      "id":2,
+      "title":"Crystal Collector",
+      "image": "../../../images/work/crystal_collector_logo-01.png",
+      "href": "https://chulps.github.io/Crystal-Game/",
+      "description": "A nerdy little math game built with with JQUERY, CSS, and Bootstrap."
+    },
+    {
+      "id":3,
+      "title":"Cholors",
+      "image": "../../../images/work/Cholors_logo-01.png",
+      "href": "https://chulps.github.io/Cholors/",
+      "description": "There are other random color scheme generators but this one is mine!"
+    }
+
+  ]
+  

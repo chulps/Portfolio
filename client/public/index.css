@@ -1,22 +1,25 @@
-*{
-    font-family: 'Lato', sans-serif;
-}
-
 a:hover{
     text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+hover-corners:hover{
     text-shadow: 0 0 20px white;
 }
 
 .bg-dot-grid{
     background-image:
-    radial-gradient(white 4%, transparent 0);
-    background-size: 30px 30px;
+    radial-gradient(white .04rem, transparent 0);
+    background-size: 1.5rem 1.5rem;
 }
 
 .bg-dot-blue{
     background-image:
-    radial-gradient(#007bff 4%, transparent 0);
-    background-size: 30px 30px;
+    radial-gradient(#007bff 5%, transparent 0);
+    background-size: 1.5rem 1.5rem;
 }
 
 .box-glow{
@@ -24,7 +27,6 @@ a:hover{
 }
 
 canvas {
-    height: 100vh !important;
     -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
  }
@@ -34,7 +36,7 @@ canvas {
     background-image: url(../public/images/me.jpg);
     background-position: center;
     overflow: hidden;
-    border:2px solid white;
+    border:2px solid #007bff;
 }
 
 .down-arrow {
@@ -51,15 +53,94 @@ canvas {
      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
 }
 
+
+
+.hover-glow{
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0));
+    filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
+}
+.hover-glow:hover{
+    -webkit-filter: drop-shadow(0px 0 20px rgba(255, 255, 255, 1));
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+}
+
+.translate-z-20{
+    transform-style: preserve-3d;
+    transform: translateZ(200px) ;
+}
+
+.hover-corners{
+	color: white;
+}
+
+.hover-corners::before,
+.hover-corners::after,
+.hover-span::before,
+.hover-span::after {
+	content: '';
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background: transparent;
+	transition: .5s ease;
+}
+
+.hover-corners::before {
+	top: -2px;
+	left: -2px;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+}
+.hover-corners::after {
+	top: -2px;
+	right: -2px;
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+}
+
+.hover-span::before {
+	bottom: -20px;
+	left: -2px;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+}
+.hover-span::after {
+	bottom: -20px;
+	right: -2px;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+
+
+.hover-corners:hover::before,
+.hover-corners:hover::after,
+.hover-corners:hover .hover-span::before,
+.hover-corners:hover .hover-span::after  {
+	width: 36px;
+    height: 36px;
+}
+
+.hover-white{
+    background-color: transparent;
+    color: white;
+    transition: .3s ease !important;
+}
+
+.hover-white:hover{
+    background-color: white !important;
+    color: #007bff !important;
+    transition: .3s ease !important;
+}
+
 .hover-obj{
-    box-shadow: 0 0 1px #002752;
+    box-shadow: 0px 0px 0px darkgrey;
     transition: .5s ease;
     margin-top:0;
     margin-bottom:0;
 }
 
 .hover-obj:hover{
-    box-shadow: 0 20px 25px #005cbf;
+    box-shadow: 0px 20px 25px lightgrey;
     transition: .5s ease;
     margin-top: -10px;
     margin-bottom:10px;
@@ -85,18 +166,22 @@ canvas {
     100% { transform: translate(1px, -1px) rotate(0deg); }
 }
 
-.mt-minus-4{
-    margin-top: -4vh;
+.mt-minus-5{
+    margin-top: -5rem;
+    margin-bottom: 6rem;
 }
 
 .mt-plus-4{
     margin-top: 4vh;
 }
 
-.pos-top-minus-8{
-    position: relative;
-    top: -8vm;
+.navbar{
+    padding:1rem;
+    margin-bottom: -5rem;
+    z-index:1;
 }
+
+
 
 .rotate-90-ccw{
     -ms-transform: rotate(-90deg); /* IE 9 */
@@ -111,13 +196,31 @@ canvas {
     text-shadow: 0 0 20px white;
 }
 
+
 .square{ 
     height: 260px;
     width: 260px;;
 }
 
-.vh-100{
-    height: 100vh;
+
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: transparent; 
+}
+ 
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: transparent; 
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
 }
 
 .x-hidden{
@@ -128,3 +231,27 @@ canvas {
     z-index:100;
 }
 
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+    .vh-100 {
+        height: 100vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+}

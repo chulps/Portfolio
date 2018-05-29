@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Router className="App">
         <div className="bg-primary">
-          <Navbar/>
+            <Navbar/>
           <Switch>
             <Route exact path="/" component={Mainpage} />
           </Switch>

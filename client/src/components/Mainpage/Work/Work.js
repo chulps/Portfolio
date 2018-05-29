@@ -1,49 +1,36 @@
 import React from "react";
 import "./Work.css";
+import work from "./work.json";
+
 
 
 const Work = () => {
   return (
-    <div id="work" className="py-5 bg-transparent row text-white" data-offset="5">
+    <div id="work" className="py-0 pt-0 pt-md-5 bg-transparent row text-white" data-offset="5">
       
-      <div className="text-center container">
+      <div className="text-center container p-0">
 
-        <h2 className="py-5">Recent Work</h2>
+        <h2 className="pb-5 mt-0 mt-md-5">Recent Work</h2>
 
-        <div className="row bg-dot-grid p-5">
-
-          <a href="https://roastr-app.herokuapp.com/" target="blank" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
-            <div >
-              <img className="img-thumbnail rounded-circle p-5" alt=''/>
-              <div className="card-body px-0">
-                <h5 className="card-title">Roastr</h5>
-                <p className="card-text">Roast your friends with this fun social App built using React.js and Bootstrap</p>
+        <div className="row justify-content-around">
+        {work.map((project) => {
+            return(
+              <a href={project.href} className='align-self-center bg-dot-grid text-white col-10 offset-1 offset-md-0 col-md-3 p-3'>
+              <div class='col-12'>
+                <img className='img-fluid' src={project.image} width={200} alt=''/>
               </div>
-            </div>
-          </a>
-
-          <a href="https://chulps.github.io/Crystal-Game/" target="blank" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
-            <div >
-            <img className="img-thumbnail rounded-circle p-5" target="blank" alt=''/>
-              <div className="card-body px-0">
-                <h5 className="card-title">Crystal Game</h5>
-                <p className="card-text">A fun little math game for nerds built with Bootstrap and JQuery</p>
+              <div className='col-12'>
+                <div className="card-body px-0">
+                  <p className="card-text">{project.description}</p>
               </div>
-            </div>
-          </a>
+                </div>
+              </a>
+            );
+          })}
 
-          <a href="https://chulps.github.io/Cholors/" className="text-white col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-4 mx-auto">
-            <div >
-            <img className="img-thumbnail rounded-circle p-5" alt=''/>
-              <div className="card-body px-0">
-                <h5 className="card-title">Cholors</h5>
-                <p className="card-text">Random color scheme generator. There are others like it but this one is mine!</p>
-              </div>
-            </div>
-          </a>
         </div>
         <a href="https://www.chulps.space" target="blank" className="btn btn-danger btn-lg mx-auto mt-5">
-          Check out my old site
+          See older work.
         </a>
       </div>
     </div>

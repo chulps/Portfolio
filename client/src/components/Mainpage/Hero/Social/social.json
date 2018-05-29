@@ -33,13 +33,13 @@
       "id":6,
       "type":"pinterest",
       "image": "../../../images/SocialIcons/pinterest.png",
-      "href": "contact"
+      "href": "https://www.pinterest.com/chuckoward/"
     },
     {
       "id":7,
       "type":"stack_overflow",
       "image": "../../../images/SocialIcons/stack_overflow.png",
-      "href": "contact"
+      "href": "https://stackoverflow.com/users/2146031/chulps"
     }
   ]
   
