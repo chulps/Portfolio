@@ -26,7 +26,7 @@ const California = () => {
         bg-dot-grid
         '>
         <Tilt options={{ max : 90, scale:1.5, perspective: 1000 }}>
-            <img className='d-block mx-auto mx-md-0' src='http://www.lillyandcompany.com/images/california.png' width={100} alt='California'/>
+            <img className='d-block mx-auto mx-md-0' src="../../../images/california.png" width={100} alt='California'/>
         </Tilt>
         <p className='d-inline font-weight-bold text-nowrap bg-primary'>
             Web Design & Development.
