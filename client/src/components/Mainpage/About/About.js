@@ -18,7 +18,8 @@ const About = () => {
               Well... I can't do EVERYTHING, but I can do a lot! 
               I'm a web developer, with a background in design, illustration, and animation.
               I wasn't born in Memphis but that's where I say I'm from. Now I call Los Angeles home.
-          </p>   
+          </p> 
+          <p> I'm actively searching for a postion as a web developer where I can use my creative experience to make a cooler, more beautiful internet.</p>
         </div>
 
         </div>

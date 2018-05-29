@@ -3,7 +3,7 @@ import logo from "./logo.json";
 
 const Skills = () => {
   return (
-    <div id="skills" className="vh-100 pb-5 pt-0 pt-md-5 text-white">
+    <div id="skills" className="vh-100 pb-5 pt-5 mt-md-5 text-white">
         <div className="container px-0">
         <div className='col-10 offset-1 col-md-12 offset-md-0 px-0'>
         <div className="text-center py-5">
@@ -16,7 +16,7 @@ const Skills = () => {
             return(
               <div key={element.id}
                 className="m-4">
-                <img height={70} src={element.image} alt=""/>
+                <img height={60} src={element.image} alt=""/>
               </div>
             );
           })}

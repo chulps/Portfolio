@@ -11,7 +11,7 @@ const Navbar = () => {
         <a href='#hero' className='hover-white brand border border-white text-white p-2 text-center rounded'>Chuck Howard</a>
 
         <div className="collapse navbar-collapse" id="navToggle">
-          <ul className="navbar-nav ml-auto mt-2 text-center" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <ul className="navbar-nav ml-auto text-center" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
             
             <li className="nav-item">
               <a className="nav-link p-auto pr-md-0 ml-0 ml-md-2" href="#about">

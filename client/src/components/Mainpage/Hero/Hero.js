@@ -3,7 +3,6 @@ import ParticlesComp from './ParticlesComp';
 import Social from './Social';
 import California from './California';
 import C from './C';
-import Tilt from 'react-tilt'
 
 const Hero = () => {
 
