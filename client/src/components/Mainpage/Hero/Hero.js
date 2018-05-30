@@ -8,8 +8,8 @@ const Hero = () => {
 
   return (
 
-    <div id='hero' className='d-flex text-white pb-5'>
-      <div className='container-fluid px-3'>
+    <div id='hero' className='d-flex text-white pb-5 pb-md-0 m-0'>
+      <div className='container-fluid px-3 pb-3'>
 
         <div className='filter-glow'>
           <ParticlesComp/>

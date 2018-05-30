@@ -14,12 +14,14 @@ hover-corners:hover{
     background-image:
     radial-gradient(white .04rem, transparent 0);
     background-size: 1.5rem 1.5rem;
+    background-position: 50%;
 }
 
 .bg-dot-blue{
     background-image:
     radial-gradient(#007bff 5%, transparent 0);
     background-size: 1.5rem 1.5rem;
+    background-position: 50%;
 }
 
 .box-glow{
@@ -97,13 +99,13 @@ canvas {
 }
 
 .hover-span::before {
-	bottom: -20px;
+	bottom: -2px;
 	left: -2px;
 	border-bottom: 2px solid white;
 	border-left: 2px solid white;
 }
 .hover-span::after {
-	bottom: -20px;
+	bottom: -2px;
 	right: -2px;
 	border-bottom: 2px solid white;
 	border-right: 2px solid white;
@@ -228,6 +230,6 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width: 768px) {  
 
     .vh-100 {
-        height: 100vh;
+        height: 99vh;
     }
 }
