@@ -5,7 +5,6 @@ const California = () => {
     return (
     <div id='california' className='
         col-10 
-        col-xs-8 
         col-sm-8 
         col-md-1 
         col-lg-1 
@@ -15,7 +14,6 @@ const California = () => {
         text-center 
         pt-5
         pr-0
-        pt-xs-5 
         pt-md-5 
         pl-md-0
         ml-md-0
@@ -25,7 +23,7 @@ const California = () => {
         align-self-end 
         bg-dot-grid
         '>
-        <Tilt options={{ max : 90, scale:1.5, perspective: 1000 }}>
+        <Tilt options={{ max : 60, scale:1.3, perspective: 1000 }}>
             <img className='d-block mx-auto mx-md-0' src="../../../images/california.png" width={100} alt='California'/>
         </Tilt>
         <p className='d-inline font-weight-bold text-nowrap bg-primary'>

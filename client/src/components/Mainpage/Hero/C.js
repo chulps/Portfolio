@@ -5,26 +5,25 @@ import Tilt from 'react-tilt'
 const C = () => {
     return (
         <div id='C' className='
+          align-self-center 
+          bg-dot-grid 
+          col-10
+          col-sm-8
+          col-md-6 
+          col-lg-5
+          col-xl-4 
           hover-corners
           mt-5
           mt-md-0
-          col-10 
+          mx-auto 
           offset-1 
           offset-md-0
-          col-xs-12
-          col-sm-8
           pb-md-5
-          col-md-6 
-          col-lg-5
           pb-lg-5
-          col-xl-4 
-          align-self-center 
+          py-5
           text-center 
           text-white 
           text-glow-white 
-          bg-dot-grid 
-          py-5
-          mx-auto
           '>
           <span className='hover-span'></span>
           <Tilt options={{ max : 70, scale:1.2, perspective: 1000 }} style={{width: '100%'}} >

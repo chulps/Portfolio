@@ -2,16 +2,25 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="vh-100 text-primary bg-white pb-5 pt-0 pt-md-5">
-      <div className="container h-100 m0 pb-md-5 mb-md-5">  
-      <h2 className="py-5 text-center">About</h2>
+    <div id="about" className="vh-100 text-primary bg-white pb-5 pb-md-0 pt-0 pt-md-5">
+      <div className="container h-100 pb-md-0 mb-md-5">  
+      <h2 className="py-5 text-center mb-0">About</h2>
 
-        <div className='row'>
-        <div className='bg-dot-blue col-10 offset-1 offset-md-0 col-sm-10 col-md-6 col-lg-6 col-xl-6 text-center'>   
+        <div className='row m-0 h-50'>
+        <div className='bg-dot-blue col-10 offset-1 col-md-6 offset-md-0 text-center'>   
           <img className='circle hover-obj img-fluid' href='' alt='' src='https://i.imgur.com/H8IrVLl.jpg'/>                   
         </div>
 
-        <div className='text-center text-md-left p-0 pl-md-5 mt-5 col-10 offset-1 offset-md-0 mt-sm-5 col-md-6 mt-md-0 col-lg-6 col-xl-6'>
+        <div className='text-center
+                        text-md-left
+                        p-0
+                        pl-md-5
+                        mt-5
+                        mt-md-0
+                        col-10
+                        offset-1
+                        offset-md-0
+                        col-md-6'>
           <h4>I can do Everything...</h4>  
           <br/> 
           <p className='text-left'>
