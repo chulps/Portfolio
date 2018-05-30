@@ -11,7 +11,7 @@ const C = () => {
           col-sm-8
           col-md-6 
           col-lg-5
-          col-xl-4 
+          col-xl-3 
           hover-corners
           mt-5
           mt-md-0
@@ -28,7 +28,7 @@ const C = () => {
           <span className='hover-span'></span>
           <Tilt options={{ max : 70, scale:1.2, perspective: 1000 }} style={{width: '100%'}} >
 
-            <div className='my-5 pb-0 pb-md-5 my-md-0 text-center jiggle filter-glow'>
+            <div className='my-5 pb-0 my-md-0 text-center  filter-glow'>
               <Logo/>
             </div>
           
@@ -36,7 +36,7 @@ const C = () => {
 
             
             <a href='#about'>
-              <span className='hover-white hover-glow px-4 py-1 bg-primary text-white border border-white rounded'>Portfolio</span>
+              <span className='hover-white hover-glow px-4 py-1 bg-primary text-white border border-white rounded'>Continue</span>
             </a>
             <br/>
             <div className='mt-3 down-arrow filter-glow'></div>
