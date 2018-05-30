@@ -70,7 +70,8 @@ canvas {
 }
 
 .hover-corners{
-	position: relative;
+    position: relative;
+    
 }
 
 .hover-corners::before,

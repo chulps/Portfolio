@@ -13,10 +13,11 @@ const California = () => {
         offset-md-0 
         text-center 
         pt-5
+        pb-5
         pr-0
+        pb-md-0
         pt-md-5 
         pl-md-0
-        ml-md-0
         order-last
         order-md-first 
         text-md-left 
@@ -31,8 +32,6 @@ const California = () => {
             <br/>
             <small>Made with Love in California.</small>
         </p>
-        <br/>
-        <br/>
     
     </div>
   );
