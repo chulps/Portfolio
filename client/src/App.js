@@ -10,10 +10,10 @@ class App extends Component {
     return (
       <Router className="App">
         <div className="bg-primary">
-            <Navbar/>
-          <Switch>
-            <Route exact path="/" component={Mainpage} />
-          </Switch>
+          <Navbar/>
+            <Switch>
+              <Route exact path="/" component={Mainpage} />
+            </Switch>
           <Footer/>
         </div>
       </Router>
