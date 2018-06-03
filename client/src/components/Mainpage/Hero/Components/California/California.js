@@ -15,6 +15,8 @@ const California = () => {
         pt-5
         pb-5
         pr-0
+        mb-0
+        mb-md-3
         pb-md-0
         pt-md-5 
         pl-md-0

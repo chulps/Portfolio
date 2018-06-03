@@ -1,97 +1,112 @@
 [
   {
     "id":1,
-    "type":"Photoshop",
+    "title":"Photoshop",
     "image": "../../../images/logos/photoshop.png"
   },
   {
     "id":2,
-    "type":"Illustrator",
+    "title":"Illustrator",
     "image": "../../../images/logos/illustrator.png"
   },
   {
     "id":3,
-    "type":"InDesign",
+    "title":"InDesign",
     "image": "../../../images/logos/indesign.png"
   },
   {
     "id":4,
-    "type":"Premiere Pro",
+    "title":"Premiere Pro",
     "image": "../../../images/logos/premiere.png"
   },
   {
     "id":5,
-    "type":"After Effects",
+    "title":"After Effects",
     "image": "../../../images/logos/aftereffects.png"
   },
   {
     "id":6,
-    "type":"Bridge",
+    "title":"Bridge",
     "image": "../../../images/logos/bridge.png"
   },
   {
     "id":7,
-    "type":"Dreamweaver",
+    "title":"Dreamweaver",
     "image": "../../../images/logos/dreamweaver.png"
   },
   {
     "id":8,
-    "type":"HTML5",
+    "title":"HTML5",
     "image": "../../../images/logos/html5.png"
   },
   {
     "id":9,
-    "type":"CSS3",
+    "title":"CSS3",
     "image": "../../../images/logos/css3.png"
   },
   {
     "id":10,
-    "type":"Javascript",
+    "title":"Javascript",
     "image": "../../../images/logos/javascript.png"
   },
   {
     "id":11,
-    "type":"JQuery",
+    "title":"JQuery",
     "image": "../../../images/logos/jquery.png"
   },
   {
     "id":12,
-    "type":"Mysql",
+    "title":"Mysql",
     "image": "../../../images/logos/mysql.png"
   },
   {
     "id":13,
-    "type":"MongoDB",
+    "title":"MongoDB",
     "image": "../../../images/logos/mongodb.png"
   },
   {
     "id":14,
-    "type":"React",
+    "title":"React",
     "image": "../../../images/logos/react.png"
   },
   {
     "id":15,
-    "type":"Node",
+    "title":"Node",
     "image": "../../../images/logos/node.png"
   },
   {
     "id":16,
-    "type":"npm",
+    "title":"npm",
     "image": "../../../images/logos/npm.png"
   },
   {
     "id":17,
-    "type":"Express",
+    "title":"Express",
     "image": "../../../images/logos/express.png"
   },
   {
     "id":18,
-    "type":"Bootstrap",
+    "title":"Bootstrap",
     "image": "../../../images/logos/bootstrap.png"
   },
   {
     "id":19,
-    "type":"heroku",
+    "title":"Heroku",
     "image": "../../../images/logos/heroku.png"
+  },
+  {
+    "id":20,
+    "title":"Zeplin",
+    "image": "../../../images/logos/zeplin.png"
+  },
+  {
+    "id":21,
+    "title":"Yarn",
+    "image": "../../../images/logos/heroku.png"
+  },
+  {
+    "id":22,
+    "title":"Yarn",
+    "image": "../../../images/logos/yarn.png"
   }
 ]

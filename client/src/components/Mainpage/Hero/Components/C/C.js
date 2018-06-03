@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../Logo';
+import Logo from '../../../../Logo';
 import Tilt from 'react-tilt'
 
 const C = () => {
@@ -25,14 +25,15 @@ const C = () => {
           text-white 
           text-glow-white 
           '>
-          <span className='hover-span'></span>
-          <Tilt options={{ max : 70, scale:1.2, perspective: 1000 }} style={{width: '100%'}} >
-
-            <div className='my-5 pb-0 my-md-0 text-center  filter-glow'>
-              <Logo/>
-            </div>
           
-          </Tilt>
+          <span className='hover-span'></span>
+              <Tilt options={{ max : 70, scale:1.2, perspective: 1000 }} style={{width: '100%'}} >
+
+                <div className='my-5 pb-0 my-md-0 text-center  filter-glow'>
+                  <Logo/>
+                </div>
+              
+              </Tilt>
 
             
             <a href='#about'>

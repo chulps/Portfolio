@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='sticky-top'>
       <nav className="navbar navbar-dark bg-md-dark navbar-expand-lg">
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <a href='#hero' className='hover-white brand border border-white text-white p-2 text-center rounded'>Chuck Howard</a>

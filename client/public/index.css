@@ -24,6 +24,10 @@ hover-corners:hover{
     background-position: 50%;
 }
 
+/* .bg-primary{
+    background-color: black !important;
+} */
+
 .box-glow{
     box-shadow: 0 0 20px white;
 }
@@ -117,8 +121,8 @@ canvas {
 .hover-corners:hover::after,
 .hover-corners:hover .hover-span::before,
 .hover-corners:hover .hover-span::after  {
-	width: 36px;
-    height: 36px;
+	width: 24px;
+    height: 24px;
 }
 
 .hover-white{
@@ -167,18 +171,10 @@ canvas {
     100% { transform: translate(1px, -1px) rotate(0deg); }
 }
 
-.mt-minus-5{
-    margin-top: -5rem;
-    margin-bottom: 6rem;
-}
-
-.mt-plus-4{
-    margin-top: 4vh;
-}
 
 .navbar{
     padding:1rem;
-    margin-bottom: -5rem;
+    margin-bottom: -4.5rem;
     z-index:1;
 }
 
@@ -231,6 +227,6 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width: 768px) {  
 
     .vh-100 {
-        height: 99vh;
+        min-height: 100vh;
     }
 }

@@ -8,6 +8,8 @@ const Social = () => {
     col-12  
     col-md-1 
     p-0 
+    mb-0
+    mb-md-4
     my-5
     my-md-0
     text-center

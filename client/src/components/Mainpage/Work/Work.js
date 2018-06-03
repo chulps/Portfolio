@@ -31,7 +31,7 @@ const Work = () => {
 
         </div>
         <a href="https://www.chulps.space" target="blank" className="btn btn-danger btn-lg mx-auto mt-5">
-          See older work.
+          Older work
         </a>
       </div>
     </div>

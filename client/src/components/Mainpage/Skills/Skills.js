@@ -15,8 +15,9 @@ const Skills = () => {
           {logo.map((element) => {
             return(
               <div key={element.id}
-                className="m-4 hover-glow">
+                className="m-3 hover-glow text-center">
                 <img height={60} src={element.image} alt=""/>
+                <p><small>{element.title}</small></p>
               </div>
             );
           })}
