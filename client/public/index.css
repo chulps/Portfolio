@@ -35,6 +35,10 @@ hover-corners:hover{
 canvas {
     -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+     position: absolute;
+     top: 0;
+     left:0;
+     height: calc(100% + 20rem) !important;
  }
 
 .circle{
@@ -228,5 +232,9 @@ body::-webkit-scrollbar-thumb:hover {
 
     .vh-100 {
         min-height: 100vh;
+    }
+
+    canvas{
+        height: 100%;
     }
 }

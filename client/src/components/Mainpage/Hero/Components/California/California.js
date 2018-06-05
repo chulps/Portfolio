@@ -18,7 +18,7 @@ const California = () => {
         mb-0
         mb-md-3
         pb-md-0
-        pt-md-5 
+        pt-md-4 
         pl-md-0
         order-last
         order-md-first 
@@ -27,7 +27,7 @@ const California = () => {
         bg-dot-grid
         '>
         <Tilt options={{ max : 60, scale:1.3, perspective: 1000 }}>
-            <img className='d-block mx-auto mx-md-0' src="../../../images/california.png" width={100} alt='California'/>
+            <img className='d-block mx-auto' src="../../../images/california.png" width={100} alt='California'/>
         </Tilt>
         <p className='d-inline font-weight-bold text-nowrap bg-primary'>
             Web Design & Development.

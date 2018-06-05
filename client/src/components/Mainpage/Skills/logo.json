@@ -26,13 +26,13 @@
   },
   {
     "id":6,
-    "title":"Bridge",
-    "image": "../../../images/logos/bridge.png"
+    "title":"Dreamweaver",
+    "image": "../../../images/logos/dreamweaver.png"
   },
   {
     "id":7,
-    "title":"Dreamweaver",
-    "image": "../../../images/logos/dreamweaver.png"
+    "title":"XD",
+    "image": "../../../images/logos/Xd.png"
   },
   {
     "id":8,
@@ -102,11 +102,11 @@
   {
     "id":21,
     "title":"Yarn",
-    "image": "../../../images/logos/heroku.png"
+    "image": "../../../images/logos/yarn.png"
   },
   {
     "id":22,
-    "title":"Yarn",
-    "image": "../../../images/logos/yarn.png"
+    "title":"Visual Studio Code",
+    "image": "../../../images/logos/visualStudioCode.png"
   }
 ]

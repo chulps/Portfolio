@@ -40,6 +40,12 @@
       "type":"stack_overflow",
       "image": "../../../images/SocialIcons/stack_overflow.png",
       "href": "https://stackoverflow.com/users/2146031/chulps"
+    },
+    {
+      "id":8,
+      "type":"jsfiddle",
+      "image": "../../../images/SocialIcons/jsfiddle.png",
+      "href": "https://stackoverflow.com/users/2146031/chulps"
     }
   ]
   
