@@ -46,6 +46,12 @@
       "type":"jsfiddle",
       "image": "../../../images/SocialIcons/jsfiddle.png",
       "href": "https://jsfiddle.net/user/chulps/fiddles/"
+    },
+    {
+      "id":9,
+      "type":"codepen",
+      "image": "../../../images/SocialIcons/codepen.png",
+      "href": "https://codepen.io/chulps/"
     }
   ]
   

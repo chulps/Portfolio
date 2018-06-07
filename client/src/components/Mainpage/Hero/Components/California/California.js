@@ -1,5 +1,6 @@
 import React from 'react';
-import Tilt from 'react-tilt'
+import Tilt from 'react-tilt';
+import Weather from 'Weather';
 
 const California = () => {
     return (
@@ -26,9 +27,8 @@ const California = () => {
         align-self-end 
         bg-dot-grid
         '>
-        <Tilt options={{ max : 60, scale:1.3, perspective: 1000 }}>
+            
             <img className='d-block mx-auto' src="../../../images/california.png" width={100} alt='California'/>
-        </Tilt>
         <p className='d-inline font-weight-bold text-nowrap bg-primary'>
             Web Design & Development.
             <br/>
