@@ -1,6 +1,4 @@
 import React from 'react';
-import Tilt from 'react-tilt';
-import Weather from 'Weather';
 
 const California = () => {
     return (
