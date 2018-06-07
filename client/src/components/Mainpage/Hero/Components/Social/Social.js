@@ -21,7 +21,7 @@ const Social = () => {
         <div>
           {social.map((element) => {
             return(
-              <div key={element.id} href={element.href} className="mt-0 mt-md-3 d-inline mx-1 d-md-block mx-md-0">
+              <div key={element.id} href={element.href} className="mt-3 d-inline mx-1 d-md-block mx-md-0">
                 <a href={element.href} target='blank'>
                     <img className='img-responsive hover-glow' height={40} src={element.image} target="blank" alt=""/>
                 </a>
