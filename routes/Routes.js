@@ -1,6 +1,6 @@
 const db = require("../models");
 const nodemailer = require("nodemailer");
-require("dotenv").config();
+const dotenv = require("dotenv").config();
 
 module.exports = function (app, express) {
 
