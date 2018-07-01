@@ -1,5 +1,6 @@
 const db = require("../models");
 const nodemailer = require("nodemailer");
+const secret = require("dotenv").config();
 
 module.exports = function (app, express) {
 
@@ -308,7 +309,7 @@ app.post("/api/adminLogin", (req, res) => {
                 secure: false,  
                 auth: {
                     user: 'chuckoward@gmail.com',  
-                    pass: '883562616'  
+                    pass: 'process.env.REACT_APP_G_KEY'  
                 },
                 tls:{
                     rejectUnauthorized:false

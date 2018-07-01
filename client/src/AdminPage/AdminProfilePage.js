@@ -91,9 +91,8 @@ loadProjects = () =>{
         toMap:this.state.projects,
         edminElement:"projects",
         colorPro:"rgb(0, 123, 255)",
-        colorSnip:"white",
-        colorRes:"white"
-
+        colorSnip:"black",
+        colorRes:"black"
     });
 };
 loadSnippets = () =>{
@@ -101,18 +100,17 @@ loadSnippets = () =>{
         toMap:this.state.snippets,
         edminElement:"snippets",
         colorSnip:"rgb(0, 123, 255)",
-        colorPro:"white",
-        colorRes:"white"
+        colorPro:"black",
+        colorRes:"black"
     });
 };
 loadResume = () =>{
     this.setState({
         toMap:this.state.resume,
         edminElement:"resume",
-        colorSnip:"white",
-        colorPro:"white",
+        colorSnip:"black",
+        colorPro:"black",
         colorRes:"rgb(0, 123, 255)"
-
     });
 };
 //==========
@@ -182,8 +180,7 @@ handleInputProjectName = (e) =>{
         projectName:e.target.value
     });
 };
- 
- handleInputDescription = (e) =>{
+handleInputDescription = (e) =>{
     this.setState({
         description:e.target.value
     });
@@ -195,8 +192,7 @@ handleInputDomainLink = (e) =>{
 };
 handleInputAddExternalLink = (e) =>{
     this.setState({
-        addExternalLink:e.target.value,
-        
+        addExternalLink:e.target.value,     
     })
 }
 //========== 
@@ -213,8 +209,7 @@ addExternalLinksBtn = () =>{
     });
     this.setState({
         addExternalLink:"",
-    });
-   
+    });  
 };
 
 
@@ -293,8 +288,7 @@ handleInputDelete = (id)=>{
     }).catch((error)=>{
         if(error) throw error
     });
-    this.setState({
-       
+    this.setState({ 
     });
 };
 deleteImage = (id,img)=>{
@@ -502,7 +496,7 @@ render(){
                         </div>
                     </div>
                    
-                    <div style={{overflowY:"scroll"}} id="rightColumn" class='col-12 col-md-10 px-0 bg-white'>
+                    <div style={{overflowY:"scroll"}} id="rightColumn" class='col-12 col-md-10 px-0 bg-black'>
                         <section class="section d-flex align-items-center">
                             <div class="container-fluid px-0">
                                 <div class="row m-0 pt-3 pl-3">
