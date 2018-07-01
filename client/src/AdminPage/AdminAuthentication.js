@@ -20,7 +20,7 @@ class AdminAuthentication extends React.Component{
         const storageToken = localStorage.getItem("user_token");
         const storageUsername = localStorage.getItem("user_name");
 
-        axios.post("/api/loginAutentication", {
+        axios.post("/api/loginAuthentication", {
             username: storageUsername,
             token:storageToken 
        }).then((response) => {

@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Mainpage from "./components/Mainpage";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import AdminSignIn from "./components/AdminPage/Components/AdminSignIn";
-import AdminAuthentication from "./components/AdminPage/AdminAuthentication";
+import AdminSignIn from "./AdminPage/Components/AdminSignIn";
+import AdminAuthentication from "./AdminPage/AdminAuthentication"
 import NoMatch from "./components/NoMatch/NoMatch";
 
 
@@ -14,7 +13,6 @@ class App extends Component {
     return (
       <Router className="App">
         <div className="bg-primary">
-          <Navbar/>
             <Switch>
               <Route exact path="/" component={Mainpage} />
               <Route exact path="/Admin" component={AdminSignIn}/>
