@@ -68,32 +68,32 @@ class Admin extends React.Component{
       
         if(this.state.redirect!==true){
             return(
-                <div  style={{height:"800px"}}class="container">
-                <div class="row">
-                    <div id="adminSignInFrom" class="span12">
+                <div  style={{height:"800px"}}className="container">
+                <div className="row">
+                    <div id="adminSignInFrom" className="span12">
                        
                           <fieldset className="fieldset">
                             <div id="legend">
-                              <legend class="">Admin Login</legend>
+                              <legend className="">Admin Login</legend>
                             </div>
-                            <div class="control-group">
+                            <div className="control-group">
                       
-                              <label class="control-label"  for="username">Username</label>
-                              <div class="controls">
-                                <input onChange={this.handleInputUsername} value={this.state.username}type="text" id="username" name="username" placeholder="" class="input-xlarge"/>
+                              <label className="control-label"  htmlFor="username">Username</label>
+                              <div className="controls">
+                                <input onChange={this.handleInputUsername} value={this.state.username}type="text" id="username" name="username" placeholder="" className="input-xlarge"/>
                               </div>
                             </div>
-                            <div class="control-group">
+                            <div className="control-group">
                        
-                              <label class="control-label" for="password">Password</label>
-                              <div class="controls">
-                                <input onChange={this.handleInputPassword} value={this.state.password} type="password" id="password" name="password" placeholder="" class="input-xlarge"/>
+                              <label className="control-label" htmlFor="password">Password</label>
+                              <div className="controls">
+                                <input onChange={this.handleInputPassword} value={this.state.password} type="password" id="password" name="password" placeholder="" className="input-xlarge"/>
                               </div>
                             </div>
-                            <div class="control-group">
+                            <div className="control-group">
             
-                              <div class="controls text-center pt-2">
-                                <button onClick={this.handleInputSubmit} class="btn btn-primary ">Login</button>
+                              <div className="controls text-center pt-2">
+                                <button onClick={this.handleInputSubmit} className="btn btn-primary ">Login</button>
                               </div>
                             </div>
                           </fieldset>

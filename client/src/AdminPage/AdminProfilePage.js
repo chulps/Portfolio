@@ -502,7 +502,7 @@ render(){
                         </div>
                     </div>
                    
-                    <div style={{overflowY:"scroll",overflowY:"hidden"}} id="rightColumn" class='col-12 col-md-10 px-0 bg-secondary'>
+                    <div style={{overflowY:"scroll"}} id="rightColumn" class='col-12 col-md-10 px-0 bg-secondary'>
                         <section class="section d-flex align-items-center">
                             <div class="container-fluid px-0">
                                 <div class="row m-0 pt-3 pl-3">
