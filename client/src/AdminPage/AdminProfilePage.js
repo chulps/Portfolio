@@ -21,7 +21,7 @@ class AdminProfilePage extends React.Component {
        updatedFile:[],
        action:"",
        toMap:[],
-       colorPro:"red",
+       colorPro:"rgb(0, 123, 255)",
        updateExternalLink:"",
        addExternalLink:""
     };
@@ -90,7 +90,7 @@ loadProjects = () =>{
     this.setState({
         toMap:this.state.projects,
         edminElement:"projects",
-        colorPro:"red",
+        colorPro:"rgb(0, 123, 255)",
         colorSnip:"white",
         colorRes:"white"
 
@@ -100,7 +100,7 @@ loadSnippets = () =>{
     this.setState({
         toMap:this.state.snippets,
         edminElement:"snippets",
-        colorSnip:"red",
+        colorSnip:"rgb(0, 123, 255)",
         colorPro:"white",
         colorRes:"white"
     });
@@ -111,7 +111,7 @@ loadResume = () =>{
         edminElement:"resume",
         colorSnip:"white",
         colorPro:"white",
-        colorRes:"red"
+        colorRes:"rgb(0, 123, 255)"
 
     });
 };
@@ -367,7 +367,7 @@ addNewProOrSnip = () =>{
                     <FileBase64 multiple={ true } onDone={ this.handleInputGetFile.bind(this)} />
                 </div>
                 <div className="col-12 p-3">
-                    <button onClick={this.handleInputSubmit} className="btn btn-danger col-12 text-center" type="submit" name="action">Submit</button> 
+                    <button onClick={this.handleInputSubmit} className="btn btn-primary col-12 text-center" type="submit" name="action">Submit</button> 
                 </div>
             </div>
         </div>
@@ -403,20 +403,20 @@ editProOrSnip = () =>{
                                     return(
                                         <div>
                                             <SocialIcon className="social-icons mx-3" id="socialicon-Insta" url={`https://${links}`} /> 
-                                            <button onClick={() => this.deleteExternalLinks(links)} className="col-3 btn btn-danger">Delete</button>
+                                            <button onClick={() => this.deleteExternalLinks(links)} className="col-3 btn btn-primary">Delete</button>
                                         </div>
                                     )
                                 }) }
                                 <div className="">
                                     <input  onChange={ this.handleInputAddExternalLink } value={ this.state.addExternalLink } className="inputName mb-2 w-100 px-2 col-9" placeholder="External Links"/>
-                                    <button onClick={this.addExternalLinksBtn} className="col-3 btn btn-danger">Add</button>
+                                    <button onClick={this.addExternalLinksBtn} className="col-3 btn btn-primary">Add</button>
                                 </div>
                             </div>
                             <div className="col-12">
                                 <FileBase64 multiple={ true } onDone={ this.handleInputGetFile.bind(this)} />
                             </div>
                             <div className="col-12 p-3">
-                                <button onClick={this.handleInputSubmit} className="btn btn-danger col-12 text-center" type="submit" name="action">Submit</button> 
+                                <button onClick={this.handleInputSubmit} className="btn btn-primary col-12 text-center" type="submit" name="action">Submit</button> 
                             </div>
                         </div>
                     </div>
@@ -464,13 +464,13 @@ mapContent = () =>{
                 this.state.toMap.map(projects=>{
                     return(
                         <div key={projects.projectName} class="col-md-6 col-lg-4 pl-0 pr-3 pb-3">
-                            <div class="card text-center p-3 card-simple h-100 bg-dark border-danger">
+                            <div class="card text-center p-3 card-simple h-100 bg-light border-dark">
                                 <img class="card-img-top w-100 mx-auto" src={projects.img[0]} alt={projects.projectName}/>
                                 <div class="card-body">
                                     <h4 class="card-title">{projects.projectName}</h4>
                                     <div class='row justify-content-between'>
-                                    <button onClick={()=> this.editProjectModalToggle(projects._id,projects.projectName,projects.domainLink,projects.description)} class='btn btn-secondary border-danger col-5'>Edit</button>
-                                    <button onClick={()=> this.handleInputDelete(projects._id)} class='btn btn-danger col-5'>Delete</button>
+                                    <button onClick={()=> this.editProjectModalToggle(projects._id,projects.projectName,projects.domainLink,projects.description)} class='btn btn-secondary border-dark col-5'>Edit</button>
+                                    <button onClick={()=> this.handleInputDelete(projects._id)} class='btn btn-primary col-5'>Delete</button>
                                     </div>
                                 </div>
                             </div>
@@ -485,24 +485,24 @@ mapContent = () =>{
      
 render(){
     return(
-        <body id="adminWrapper" class='container-fluid bg-dark text-light h-100 p-0'>
-            <nav id="adminNav" class='row navbar navbar-dark px-2 mx-0 border-bottom border-danger'>  
-                <span class='text-light'>Edmin Page</span>
-                <button onClick={this.handleClickSignOut} class='btn btn-danger ml-auto'> Log Out  </button>
+        <body id="adminWrapper" class='container-fluid bg-light text-dark h-100 p-0'>
+            <nav id="adminNav" class='row navbar mb-0 navbar-dark px-2 mx-0 border-bottom border-dark'>  
+                <span class='text-dark'>Chulpsnet</span>
+                <button onClick={this.handleClickSignOut} class='btn btn-primary ml-auto'> Log Out  </button>
             </nav>
             <div id="adminBody" class='row m-0 p-0'>
-                    <div id="leftColumn" class='col-12 col-md-2 px-0 border-right border-danger'>
+                    <div id="leftColumn" class='col-12 col-md-2 px-0 border-right border-dark'>
                             <span onClick={()=> this.addProjectModalToggle(true)} class='float-right p-1'>(+)</span>
-                        <div style={{color:`${this.state.colorPro}`} } onClick={this.loadProjects} id="projectButton" class="border-bottom border-danger p-2">Projects</div>
+                        <div style={{color:`${this.state.colorPro}`} } onClick={this.loadProjects} id="projectButton" class="border-bottom border-dark p-2">Projects</div>
                             <span  onClick={this.addSnippetModalToggle} class='float-right p-1'>(+)</span>
-                        <div style={{color:`${this.state.colorSnip}`} } onClick={this.loadSnippets} id="snippetsButton" class="border-bottom border-danger p-2">Snippets                        </div>
+                        <div style={{color:`${this.state.colorSnip}`} } onClick={this.loadSnippets} id="snippetsButton" class="border-bottom border-dark p-2">Snippets                        </div>
                             <span onClick={this.addResumeModalToggle} class='float-right p-1'>(+)</span>
-                        <div style={{color:`${this.state.colorRes}`} } onClick={this.loadResume} id="resumeButton" class="border-bottom border-danger p-2">Resumé                        </div>
+                        <div style={{color:`${this.state.colorRes}`} } onClick={this.loadResume} id="resumeButton" class="border-bottom border-dark p-2">Resumé                        </div>
                         <div className="pt-4">
                         </div>
                     </div>
                    
-                    <div style={{overflowY:"scroll"}} id="rightColumn" class='col-12 col-md-10 px-0 bg-secondary'>
+                    <div style={{overflowY:"scroll"}} id="rightColumn" class='col-12 col-md-10 px-0 bg-white'>
                         <section class="section d-flex align-items-center">
                             <div class="container-fluid px-0">
                                 <div class="row m-0 pt-3 pl-3">

@@ -307,7 +307,7 @@ app.post("/api/adminLogin", (req, res) => {
                 port: 587,
                 secure: false,  
                 auth: {
-                    user: 'edote92@gmail.com',  
+                    user: 'chuckoward@gmail.com',  
                     pass: '883562616'  
                 },
                 tls:{
@@ -317,7 +317,7 @@ app.post("/api/adminLogin", (req, res) => {
           
             let mailOptions = {
                 from: '"Nodemailer Contact" <your@email.com>', 
-                to: 'edote92@gmail.com',  
+                to: 'chuckoward@gmail.com',  
                 subject: 'Node Contact Request',  
                 text: 'Hello world?',  
                 html: output  
