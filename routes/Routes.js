@@ -1,6 +1,6 @@
 const db = require("../models");
 const nodemailer = require("nodemailer");
-const secret = require("dotenv").config();
+require("dotenv").config();
 
 module.exports = function (app, express) {
 
