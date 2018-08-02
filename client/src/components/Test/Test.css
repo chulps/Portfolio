@@ -45,6 +45,11 @@
 
   .bg-light-blue{
       background-color: #2cb8d2;
+      color: white;
+  }
+
+  .bg-dark-blue{
+      background-color: #24537f;
   }
 
   .text-dark-blue{
@@ -64,3 +69,200 @@
   .row{
       margin: 0;
   }
+
+
+  /* animation section */
+  
+  .box {
+    width: 120%;
+    height:130px;
+    background: white;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  
+  .wave {
+    opacity: 1;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    background: #2cb8d2;
+    width: 300vw;
+    height: 300vw;
+    margin-left: -160vw;
+    margin-top: -285vw;
+    -webkit-transform-origin: 50% 48%;
+            transform-origin: 50% 48%;
+    border-radius: 43%;
+    -webkit-animation: drift 13s infinite linear;
+            animation: drift 13s infinite linear;
+  }
+  
+  .wave.-three {
+    -webkit-animation: drift 15s infinite linear;
+    animation: drift 15s infinite linear;
+    opacity: .6;
+    background: #2cb8d2;
+
+  }
+  
+  .wave.-two {
+    -webkit-animation: drift 18s infinite linear;
+            animation: drift 18s infinite linear;
+    opacity: .6;
+    background: #2cb8d2;
+  }
+  
+  .box:after {
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  
+
+  
+  @-webkit-keyframes drift {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    from {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes drift {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    from {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+
+  /* below section */
+
+  .boxb {
+    width: 100%;
+    height: 200px;
+    background: #24537f;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  
+  .waveb {
+    opacity: 1;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    background: white;
+    width: 300vw;
+    height: 300vw;
+    margin-left: -160vw;
+    margin-top: -280vw;
+    -webkit-transform-origin: 50% 48%;
+            transform-origin: 50% 48%;
+    border-radius: 43%;
+    -webkit-animation: drift 15s infinite linear;
+            animation: drift 15s infinite linear;
+  }
+  
+  .waveb.-threeb {
+    -webkit-animation: drift 18s infinite linear;
+    animation: driftb 18s infinite linear;
+    opacity: .6;
+    background: white;
+
+  }
+  
+  .waveb.-twob {
+    -webkit-animation: drift 23s infinite linear;
+            animation: drift 23s infinite linear;
+    opacity: .6;
+    background: white;
+  }
+  
+  .boxb:after {
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  
+
+  
+  @-webkit-keyframes driftb {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    from {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes driftb {
+    from {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    from {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .box{
+        height: 160px;
+    }
+    .boxb{
+        height: 200px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .box {
+        height:250px;
+    }
+    .boxb{
+        height: 240px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .box {
+        height: 290px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .box {
+        height: 430px;
+    }
+    .boxb{
+    margin-top: -60px;
+    }
+ }
