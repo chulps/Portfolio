@@ -6,17 +6,19 @@ import Footer from "./components/Footer";
 import AdminSignIn from "./AdminPage/Components/AdminSignIn";
 import AdminAuthentication from "./AdminPage/AdminAuthentication"
 import NoMatch from "./components/NoMatch/NoMatch";
+import Test from "./components/Test/Test";
 
 
 class App extends Component {
   render() {
     return (
       <Router className="App">
-        <div className="bg-primary">
+        <div>
             <Switch>
               <Route exact path="/" component={Mainpage} />
               <Route exact path="/Admin" component={AdminSignIn}/>
               <Route exact path="/AdminPage" component={AdminAuthentication}/>
+              <Route exact path="/test" component={Test}/>
               <Route component={NoMatch} />
             </Switch>
           <Footer/>

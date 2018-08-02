@@ -1,0 +1,66 @@
+.lens{
+    animation: lens 8s ease-in-out alternate;
+    animation-iteration-count:infinite;
+    position: absolute; 
+    top:0;
+    left:0;
+}
+
+@-webkit-keyframes lens {
+    0%   { clip-path: circle(20% at 30% 40%)}
+    17%  { clip-path: circle(20% at 55% 15%)}
+    34%  { clip-path: circle(20% at 60% 25%)}
+    51%  { clip-path: circle(20% at 55% 35%)}
+    68%  { clip-path: circle(20% at 75% 45%)}
+    85%  { clip-path: circle(20% at 80% 45%)}
+    100% { clip-path: circle(20% at 25% 45%)}
+  }
+  @-moz-keyframes lens {
+    0%   { clip-path: circle(20% at 30% 40%)}
+    17%  { clip-path: circle(20% at 55% 15%)}
+    34%  { clip-path: circle(20% at 60% 25%)}
+    51%  { clip-path: circle(20% at 55% 35%)}
+    68%  { clip-path: circle(20% at 75% 45%)}
+    85%  { clip-path: circle(20% at 80% 45%)}
+    100% { clip-path: circle(20% at 25% 45%)}
+  }
+  @-o-keyframes lens {
+    0%   { clip-path: circle(20% at 30% 40%)}
+    17%  { clip-path: circle(20% at 55% 15%)}
+    34%  { clip-path: circle(20% at 60% 25%)}
+    51%  { clip-path: circle(20% at 55% 35%)}
+    68%  { clip-path: circle(20% at 75% 45%)}
+    85%  { clip-path: circle(20% at 80% 45%)}
+    100% { clip-path: circle(20% at 25% 45%)}
+  }
+  @keyframes lens {
+    0%   { clip-path: circle(20% at 30% 40%)}
+    17%  { clip-path: circle(20% at 55% 15%)}
+    34%  { clip-path: circle(20% at 60% 25%)}
+    51%  { clip-path: circle(20% at 55% 35%)}
+    68%  { clip-path: circle(20% at 75% 45%)}
+    85%  { clip-path: circle(20% at 80% 45%)}
+    100% { clip-path: circle(20% at 25% 45%)}
+  }
+
+  .bg-light-blue{
+      background-color: #2cb8d2;
+  }
+
+  .text-dark-blue{
+      color: #24537f;
+  }
+
+  .bg-red{
+      background-color: #fd8a66;
+      color: #24537f;
+  }
+
+  .bg-yellow{
+    background-color: #feca40;
+    color: #24537f;
+  }
+
+  .row{
+      margin: 0;
+  }
