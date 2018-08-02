@@ -264,9 +264,9 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .box {
-        height: 430px;
+        height: 230px;
     }
-    .boxb{
-    margin-top: -60px;
+    .wave{
+        margin-top: -295vw;
     }
  }

@@ -21,7 +21,7 @@ const Test = () => {
             </div>
 
                 <div className='row bg-white px-2'>
-                    <div className='col-md-10 offset-md-1'>
+                    <div className='col-lg-9 mx-auto'>
                     
                         <div className='row'>
                     
