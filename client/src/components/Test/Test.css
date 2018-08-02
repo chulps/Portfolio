@@ -255,6 +255,10 @@
     .box {
         height: 290px;
     }
+    .boxb{
+        margin-top: -60px;
+        height: 340px;
+    }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
