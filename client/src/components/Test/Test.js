@@ -21,11 +21,11 @@ const Test = () => {
             </div>
 
                 <div className='row bg-white px-2'>
-                    <div className='col-lg-9 mx-auto'>
+                    <div className='col-lg-9 col-xl-8 mx-auto'>
                     
                         <div className='row'>
                     
-                        <h2 className='col-12 text-center text-dark-blue'>Easily Identify Most Profitable Placements</h2>
+                        <h2 className='col-12 text-center text-dark-blue mb-5'>Easily Identify Most Profitable Placements</h2>
                         <div className="col-md-6 justify-content-center mb-5">
                             <img className='mx-auto img-fluid' src={require("./comp.svg")} />
                             <img className='mx-auto img-fluid lens' src={require("./comp_large.svg")} />

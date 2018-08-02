@@ -95,21 +95,21 @@
     -webkit-transform-origin: 50% 48%;
             transform-origin: 50% 48%;
     border-radius: 43%;
-    -webkit-animation: drift 13s infinite linear;
-            animation: drift 13s infinite linear;
+    -webkit-animation: drift 30s infinite linear;
+            animation: drift 30s infinite linear;
   }
   
   .wave.-three {
-    -webkit-animation: drift 15s infinite linear;
-    animation: drift 15s infinite linear;
+    -webkit-animation: drift 35s infinite linear;
+    animation: drift 35s infinite linear;
     opacity: .6;
     background: #2cb8d2;
 
   }
   
   .wave.-two {
-    -webkit-animation: drift 18s infinite linear;
-            animation: drift 18s infinite linear;
+    -webkit-animation: drift 40s infinite linear;
+            animation: drift 40s infinite linear;
     opacity: .6;
     background: #2cb8d2;
   }
@@ -175,21 +175,21 @@
     -webkit-transform-origin: 50% 48%;
             transform-origin: 50% 48%;
     border-radius: 43%;
-    -webkit-animation: drift 15s infinite linear;
-            animation: drift 15s infinite linear;
+    -webkit-animation: drift 30s infinite linear;
+            animation: drift 30s infinite linear;
   }
   
   .waveb.-threeb {
-    -webkit-animation: drift 18s infinite linear;
-    animation: driftb 18s infinite linear;
+    -webkit-animation: drift 35s infinite linear;
+    animation: driftb 35s infinite linear;
     opacity: .6;
     background: white;
 
   }
   
   .waveb.-twob {
-    -webkit-animation: drift 23s infinite linear;
-            animation: drift 23s infinite linear;
+    -webkit-animation: drift 40s infinite linear;
+            animation: drift 40s infinite linear;
     opacity: .6;
     background: white;
   }
