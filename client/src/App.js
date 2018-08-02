@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <Router className="App">
-        <div>
+        <div className='bg-primary'>
             <Switch>
               <Route exact path="/" component={Mainpage} />
               <Route exact path="/Admin" component={AdminSignIn}/>
