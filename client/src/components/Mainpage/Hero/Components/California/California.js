@@ -25,7 +25,7 @@ const California = () => {
         align-self-end 
         '>
             
-            <img className='d-block mx-auto' src="../../../images/california.png" width={100} alt='California'/>
+            <img className='d-block mr-auto' src="../../../images/california.png" width={100} alt='California'/>
         <p className='d-inline font-weight-bold text-nowrap bg-primary'>
             Web Design & Development.
             <br/>
