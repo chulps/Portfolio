@@ -5,7 +5,7 @@ import work from "./work.json";
 
 const Work = () => {
   return (
-    <div id="work" className="vh-100 pt-5 mt-md-5 text-white text-center">
+    <div id="work" className="mb-5 mt-md-5 text-white text-center">
       
       <div className="container px-0">
 

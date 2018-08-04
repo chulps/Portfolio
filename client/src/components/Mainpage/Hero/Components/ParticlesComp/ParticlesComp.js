@@ -7,7 +7,7 @@ const ParticlesComp = () => {
     <Particles
           params={{
             particles: {
-              number: { value: 20, density: { enable: true, value_area: 1600 } },
+              number: { value: 5, density: { enable: true, value_area: 400 } },
               color: { value: "#ffffff" },
               shape: {
                 type: "circle",
@@ -78,6 +78,7 @@ const ParticlesComp = () => {
             position: 'absolute',
             top:0,
             left: 0,
+            height: '100%',
           }}
         />
   );

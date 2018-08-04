@@ -16,7 +16,6 @@ hover-corners:hover{
     background-image:
     radial-gradient(white .04rem, transparent 0);
     background-size: 5vw 5vw;
-    background-position: center;
 }
 
 .bg-dot-blue{
@@ -30,14 +29,14 @@ hover-corners:hover{
     box-shadow: 0 0 20px white;
 }
 
-canvas {
+/* canvas {
     -webkit-filter: drop-shadow(10px 0 20px rgba(255, 255, 255, 1));
      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
      position: absolute;
      top: 0;
      left:0;
-     height: calc(100% + 20rem) !important;
- }
+     height: calc(100% + 20vh)
+ } */
 
 .circle{
     border-radius:50%;
@@ -153,25 +152,14 @@ canvas {
     animation-timing-function: ease-in-out; 
 }
 
-@keyframes jiggle {
-    0% { transform: translate(1px, 1px) rotate(0deg);}
-    10% { transform: translate(-1px, -1px) rotate(-.25deg);}
-    20% { transform: translate(-2px, 0px) rotate(.25deg);}
-    30% { transform: translate(0px, 1px) rotate(0deg);} 
-    40% { transform: translate(1px, -1px) rotate(.25deg); }
-    50% { transform: translate(-1px, 2px) rotate(-.25deg); }
-    60% { transform: translate(-2px, 1px) rotate(0deg); }
-    70% { transform: translate(0px, 0px) rotate(-.25deg); }
-    80% { transform: translate(-1px, -1px) rotate(0deg); }
-    90% { transform: translate(1px, 0px) rotate(.25deg); }
-    100% { transform: translate(1px, -1px) rotate(0deg); }
-}
-
-
 .navbar{
     padding:1rem;
     margin-bottom: -4.5rem;
     z-index:1;
+}
+
+.text-no-wrap {
+    white-space: nowrap; 
 }
 
 .rotate-90-ccw{
@@ -237,9 +225,6 @@ body::-webkit-scrollbar-thumb:hover {
         background-size: 3vw 3vw;
     }
 
-    canvas{
-        height: 100vh !important;
-    }
 }
 
 /* Large devices (desktops, 992px and up)*/
