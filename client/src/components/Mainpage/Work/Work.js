@@ -14,7 +14,7 @@ const Work = () => {
         <div className="row justify-content-between">
         {work.map((project) => {
             return(
-              <a key={project.id} href={project.href} className='hover-corners align-self-center bg-dot-grid text-white col-10 col-md-4 offset-1 offset-md-0 col-lg-3 py-5 px-0 mb-5 mb-md-0'>
+              <a key={project.id} href={project.href} className='hover-corners align-self-center bg-dot-grid text-white col-10 col-md-3 offset-1 offset-md-0 col-lg-3 py-5 px-0 mb-5 mb-md-0'>
               <div className='col-12'>
                 <img className='img-fluid' src={project.image} width={200} alt=''/>
               </div>

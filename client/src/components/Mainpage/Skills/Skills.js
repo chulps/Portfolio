@@ -16,7 +16,7 @@ const Skills = () => {
             return(
               <div key={element.id}
                 className="m-3 hover-glow text-center">
-                <img height={60} src={element.image} alt=""/>
+                <img height={50} src={element.image} alt=""/>
                 <p><small>{element.title}</small></p>
               </div>
             );

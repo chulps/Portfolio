@@ -15,8 +15,8 @@ hover-corners:hover{
 .bg-dot-grid{
     background-image:
     radial-gradient(white .04rem, transparent 0);
-    background-size: 6vw 6vw;
-    background-position: 50%;
+    background-size: 5vw 5vw;
+    background-position: center;
 }
 
 .bg-dot-blue{
@@ -25,10 +25,6 @@ hover-corners:hover{
     background-size: 1.5rem 1.5rem;
     background-position: 50%;
 }
-
-/* .bg-primary{
-    background-color: black !important;
-} */
 
 .box-glow{
     box-shadow: 0 0 20px white;
@@ -225,7 +221,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
-
+    .bg-dot-grid{
+        background-size: 4vw 4vw;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -242,4 +240,18 @@ body::-webkit-scrollbar-thumb:hover {
     canvas{
         height: 100vh !important;
     }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .bg-dot-grid{
+        background-size: 3vw 3vw;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .bg-dot-grid{
+        background-size: 1.8vw 1.8vw;
+    }    
 }

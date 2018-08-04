@@ -23,7 +23,6 @@ const California = () => {
         order-md-first 
         text-md-left 
         align-self-end 
-        bg-dot-grid
         '>
             
             <img className='d-block mx-auto' src="../../../images/california.png" width={100} alt='California'/>
