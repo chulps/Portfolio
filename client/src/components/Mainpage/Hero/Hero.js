@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
 
-    <div id='hero' className='d-flex text-white pb-5 pb-md-0 m-0'>
+    <div id='hero' className='d-flex bg-transparent text-white pb-5 pb-md-0 m-0'>
       <div className='container-fluid vh-100 px-3'>
 
         <div className='filter-glow'>

@@ -9,7 +9,7 @@ import Navbar from "../Navbar";
 class Mainpage extends Component {
   render() {
     return (
-      <div className='x-hidden bg-primary"'>
+      <div className='x-hidden bg-transparent'>
         <Navbar/>
         <Hero/>
         <About/>

@@ -15,7 +15,7 @@ hover-corners:hover{
 .bg-dot-grid{
     background-image:
     radial-gradient(white .04rem, transparent 0);
-    background-size: 1.5rem 1.5rem;
+    background-size: 6vw 6vw;
     background-position: 50%;
 }
 
@@ -74,21 +74,15 @@ canvas {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
 }
 
-.translate-z-20{
-    transform-style: preserve-3d;
-    transform: translateZ(200px) ;
-}
-
 .hover-corners{
     position: relative;
-    
 }
 
 .hover-corners::before,
 .hover-corners::after,
 .hover-span::before,
 .hover-span::after {
-	content: '';
+	content: ' ';
 	position: absolute;
 	width: 8px;
 	height: 8px;
@@ -236,7 +230,11 @@ body::-webkit-scrollbar-thumb:hover {
         min-height: 100vh;
     }
 
+    .bg-dot-grid{
+        background-size: 3vw 3vw;
+    }
+
     canvas{
-        height: 100% !important;
+        height: 100vh !important;
     }
 }

@@ -95,21 +95,21 @@
     -webkit-transform-origin: 50% 48%;
             transform-origin: 50% 48%;
     border-radius: 43%;
-    -webkit-animation: drift 30s infinite linear;
-            animation: drift 30s infinite linear;
+    -webkit-animation: drift 50s infinite linear;
+            animation: drift 50s infinite linear;
   }
   
   .wave.-three {
-    -webkit-animation: drift 35s infinite linear;
-    animation: drift 35s infinite linear;
+    -webkit-animation: drift 60s infinite linear;
+    animation: drift 60s infinite linear;
     opacity: .6;
     background: #2cb8d2;
 
   }
   
   .wave.-two {
-    -webkit-animation: drift 40s infinite linear;
-            animation: drift 40s infinite linear;
+    -webkit-animation: drift 70s infinite linear;
+            animation: drift 70s infinite linear;
     opacity: .6;
     background: #2cb8d2;
   }
@@ -175,21 +175,21 @@
     -webkit-transform-origin: 50% 48%;
             transform-origin: 50% 48%;
     border-radius: 43%;
-    -webkit-animation: drift 30s infinite linear;
-            animation: drift 30s infinite linear;
+    -webkit-animation: drift 50s infinite linear;
+            animation: drift 50s infinite linear;
   }
   
   .waveb.-threeb {
-    -webkit-animation: drift 35s infinite linear;
-    animation: driftb 35s infinite linear;
+    -webkit-animation: drift 60s infinite linear;
+    animation: driftb 60s infinite linear;
     opacity: .6;
     background: white;
 
   }
   
   .waveb.-twob {
-    -webkit-animation: drift 40s infinite linear;
-            animation: drift 40s infinite linear;
+    -webkit-animation: drift 70s infinite linear;
+            animation: drift 70s infinite linear;
     opacity: .6;
     background: white;
   }
@@ -268,5 +268,9 @@
     }
     .wave{
         margin-top: -295vw;
+    }
+    .boxb{
+        margin-top: -60px;
+        height: 340px;
     }
  }

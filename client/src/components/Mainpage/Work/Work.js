@@ -18,11 +18,11 @@ const Work = () => {
               <div className='col-12'>
                 <img className='img-fluid' src={project.image} width={200} alt=''/>
               </div>
-              <div className='col-12'>
-                <div className="card-body px-0">
+                <div className='col-12'>
+                  <div className="card-body px-0">
                   <p className="card-text p-0 m-0">{project.description}</p>
-              </div>
                 </div>
+              </div>
                 <span className='hover-span'></span>
 
               </a>
