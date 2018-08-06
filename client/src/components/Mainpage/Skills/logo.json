@@ -2,97 +2,97 @@
   {
     "id":1,
     "title":"Photoshop",
-    "image": "../../../images/logos/photoshop.png"
+    "image": "../../../images/logos/photoshop-01.svg"
   },
   {
     "id":2,
     "title":"Illustrator",
-    "image": "../../../images/logos/illustrator.png"
+    "image": "../../../images/logos/illustrator-01.svg"
   },
   {
     "id":3,
     "title":"InDesign",
-    "image": "../../../images/logos/indesign.png"
+    "image": "../../../images/logos/indesign-01.svg"
   },
   {
     "id":4,
     "title":"Premiere Pro",
-    "image": "../../../images/logos/premiere.png"
+    "image": "../../../images/logos/premiere-01.svg"
   },
   {
     "id":5,
     "title":"After Effects",
-    "image": "../../../images/logos/aftereffects.png"
+    "image": "../../../images/logos/aftereffects-01.svg"
   },
   {
     "id":6,
     "title":"Dreamweaver",
-    "image": "../../../images/logos/dreamweaver.png"
+    "image": "../../../images/logos/dreamweaver-01.svg"
   },
   {
     "id":7,
     "title":"XD",
-    "image": "../../../images/logos/Xd.png"
+    "image": "../../../images/logos/Xd-01.svg"
   },
   {
     "id":8,
     "title":"HTML5",
-    "image": "../../../images/logos/html5.png"
+    "image": "../../../images/logos/html-01.svg"
   },
   {
     "id":9,
     "title":"CSS3",
-    "image": "../../../images/logos/css3.png"
+    "image": "../../../images/logos/css-01.svg"
   },
   {
     "id":10,
     "title":"Javascript",
-    "image": "../../../images/logos/javascript.png"
+    "image": "../../../images/logos/javascript-01.svg"
   },
   {
     "id":11,
     "title":"JQuery",
-    "image": "../../../images/logos/jquery.png"
+    "image": "../../../images/logos/jquery-01.svg"
   },
   {
     "id":12,
     "title":"Mysql",
-    "image": "../../../images/logos/mysql.png"
+    "image": "../../../images/logos/mysql-01.svg"
   },
   {
     "id":13,
     "title":"MongoDB",
-    "image": "../../../images/logos/mongodb.png"
+    "image": "../../../images/logos/mongodb-01.svg"
   },
   {
     "id":14,
     "title":"React",
-    "image": "../../../images/logos/react.png"
+    "image": "../../../images/logos/react-01.svg"
   },
   {
     "id":15,
     "title":"Node",
-    "image": "../../../images/logos/node.png"
+    "image": "../../../images/logos/node-01.svg"
   },
   {
     "id":16,
     "title":"npm",
-    "image": "../../../images/logos/npm.png"
+    "image": "../../../images/logos/npm-01.svg"
   },
   {
     "id":17,
     "title":"Express",
-    "image": "../../../images/logos/express.png"
+    "image": "../../../images/logos/express-01.svg"
   },
   {
     "id":18,
     "title":"Bootstrap",
-    "image": "../../../images/logos/bootstrap.png"
+    "image": "../../../images/logos/bootstrap-01.svg"
   },
   {
     "id":19,
     "title":"Heroku",
-    "image": "../../../images/logos/heroku.png"
+    "image": "../../../images/logos/heroku-01.svg"
   },
   {
     "id":20,
@@ -102,11 +102,11 @@
   {
     "id":21,
     "title":"Yarn",
-    "image": "../../../images/logos/yarn.png"
+    "image": "../../../images/logos/yarn-01.svg"
   },
   {
     "id":22,
     "title":"Visual Studio Code",
-    "image": "../../../images/logos/visualStudioCode.png"
+    "image": "../../../images/logos/visual-studio-code-01.svg"
   }
 ]

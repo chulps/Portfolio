@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#007BFF;}
+	.st1{fill:#007BFF;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Arial-BoldMT';}
+	.st4{font-size:0.3213px;}
+</style>
+<g>
+	<path class="st2" d="M4.1,5.2h91.7v89.2H4.1V5.2z M-0.1,98.5h100V1h-100V98.5z M65.4,35.8c0-0.3,0.1-0.5,0.5-0.5h6.5
+		c0.3,0,0.5,0.1,0.5,0.5v32.9c0,0.3-0.1,0.5-0.5,0.5H66c-0.4,0-0.5-0.2-0.5-0.5L65.4,35.8L65.4,35.8L65.4,35.8z M65,26.3
+		c0-2.7,1.9-4.2,4.3-4.2c2.5,0,4.2,1.7,4.2,4.2c0,2.7-1.8,4.2-4.3,4.2C66.7,30.6,65,29.1,65,26.3z M46.2,49.5
+		c-1.2-4.6-3.9-14.7-5-19.6h-0.1c-0.9,4.9-3.1,13.1-4.8,19.6H46.2z M34.6,56.2l-3.3,12.5c-0.1,0.3-0.2,0.4-0.6,0.4h-6.1
+		c-0.4,0-0.5-0.1-0.4-0.6L36,27.1c0.2-0.7,0.3-1.4,0.4-3.5c0-0.3,0.1-0.4,0.3-0.4h8.8c0.3,0,0.4,0.1,0.5,0.4l13.2,45
+		c0.1,0.3,0,0.5-0.3,0.5H52c-0.3,0-0.5-0.1-0.6-0.4L48,56.2H34.6L34.6,56.2z"/>
+</g>
+<text transform="matrix(1 0 0 1 48.9131 49.8594)" class="st2 st3 st4">Lorem ipsum</text>
+</svg>
