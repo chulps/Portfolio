@@ -1,16 +1,9 @@
 import React from "react";
 import './Test.css';
 
-
-const containerStyle = {
-    fontFamily: 'Montserrat'
-};
-
-
-
 const Test = () => {
   return (
-    <div style={containerStyle} className='row m-0 bg-transparent'>
+    <div className='row m-0 bg-transparent'>
         <div >
             <div className='row bg-light-blue justify-content-center'>
                 <div class='box'>
