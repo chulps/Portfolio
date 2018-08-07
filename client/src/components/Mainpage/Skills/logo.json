@@ -16,7 +16,7 @@
   },
   {
     "id":4,
-    "title":"Premiere Pro",
+    "title":"Premiere",
     "image": "../../../images/logos/premiere-01.svg"
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "id":22,
-    "title":"Visual Studio Code",
+    "title":"VS Code",
     "image": "../../../images/logos/visual-studio-code-01.svg"
   }
 ]

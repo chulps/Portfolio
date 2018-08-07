@@ -8,7 +8,7 @@ const About = () => {
 
         <div className='row m-0 h-50'>
         <div className='bg-dot-blue col-10 offset-1 col-md-6 offset-md-0 text-center'>   
-          <img className='circle hover-obj img-fluid' href='' alt='' src='https://i.imgur.com/H8IrVLl.jpg'/>                   
+          <img className='circle hover-obj img-fluid' href='' alt='' src={require('./me.jpg')}/>                   
         </div>
 
         <div className='text-center

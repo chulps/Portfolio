@@ -6,7 +6,6 @@ const California = () => {
         col-10 
         col-sm-8 
         col-md-1 
-        col-lg-1 
         offset-1 
         offset-sm-2
         offset-md-0 
@@ -25,11 +24,11 @@ const California = () => {
         align-self-end 
         '>
             
-            <img className='d-block mx-auto mr-md-auto' src="../../../images/california.png" width={100} alt='California'/>
+            <img className='d-block mr-auto ml-auto ml-md-0' src="../../../images/california.png" width={100} alt='California'/>
             <p className='d-inline font-weight-bold text-nowrap bg-primary'>
                 Web Design & Development.
             <br/>
-            <small>Made with Love in California.</small>
+            <small>Made in California.</small>
         </p>
     
     </div>
