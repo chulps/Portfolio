@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.json";
 
 const Skills = () => {
+  
   return (
     <div id="skills" className="vh-100 pt-5 mt-md-5 text-white">
         <div className="container px-0">
@@ -16,7 +17,7 @@ const Skills = () => {
             return(
               <div key={element.id}
                 className="m-3 hover-glow text-center text-no-wrap">
-                <img height={60} src={element.image} alt=""/>
+                <img height={60} src={this.require(element.image)} alt=""/>
                 <p><small>{element.title}</small></p>
               </div>
             );

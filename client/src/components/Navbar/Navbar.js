@@ -1,10 +1,8 @@
 import React from "react"
-import Headspace from "react-headspace"
 
 const Navbar = () => {
   
   return (
-    <Headspace>
       <nav className="navbar navbar-dark bg-md-dark navbar-expand-lg">
         <button className="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -50,7 +48,6 @@ const Navbar = () => {
 
         </div>
       </nav>
-      </Headspace>
   );
 };
 
