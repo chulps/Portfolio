@@ -17,7 +17,7 @@ const Skills = () => {
             return(
               <div key={element.id}
                 className="m-3 hover-glow text-center text-no-wrap">
-                <img height={60} src={this.require(element.image)} alt=""/>
+                <img height={60} src={element.image} alt=""/>
                 <p><small>{element.title}</small></p>
               </div>
             );

@@ -237,7 +237,7 @@ app.post("/api/adminLogin", (req, res) => {
         });
 });
 
-    //when reaches admin authentication page checks if local strage matches with database
+    //when reaches admin authentication page checks if local storage matches with database
     app.post("/api/loginAuthentication", (req, res) => {
         db.Admin.findOne({
             username: req.body.username,
