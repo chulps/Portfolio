@@ -8,7 +8,7 @@ const About = () => {
 
         <div className='row m-0 h-50'>
         <div className='bg-dot-blue col-10 offset-1 col-md-6 offset-md-0 text-center'>   
-          <img className='circle hover-obj img-fluid' href='' alt='' src={require('./me.jpg')}/>                   
+          <img className='circle hover-obj img-fluid' href='' alt='' src={require('./chuck.jpg')}/>                   
         </div>
 
         <div className='text-center
@@ -21,14 +21,18 @@ const About = () => {
                         offset-1
                         offset-md-0
                         col-md-6'>
-          <h4>I can do Everything...</h4>  
+          <h4>I love my job.</h4>  
           <br/> 
           <p className='text-left'>
-              Well... I can't do EVERYTHING, but I can do a lot! 
-              I'm a web developer, with a background in design, illustration, and animation.
-              I wasn't born in Memphis but that's where I say I'm from. Now I call Los Angeles home.
+            Design leadership is my thing.
           </p> 
-          <p> I'm actively seeking a role as a web developer where I can use my creative experience to make a cooler, more beautiful internet.</p>
+          <p> 
+            Currently I work at Clicktool.com as Creative Director. 
+            My focus here is to oversee the look and feel of all of our products and services with a very hands-on approach.
+            Every day for me is a mix of design, coding, copy writing and animation.
+            My favorite thing about working here my TEAM!
+            They are brilliant and we've established a lot of trust with each other.
+          </p>
         </div>
 
         </div>
